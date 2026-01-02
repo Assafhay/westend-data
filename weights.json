@@ -192,15 +192,6 @@
   },
   {
     "question_id": "q3_mood",
-    "answer_id": "feel_good",
-    "field": "beginner_friendly",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Easy to enjoy"
-  },
-  {
-    "question_id": "q3_mood",
     "answer_id": "epic_emotional",
     "field": "romance_score",
     "weight": 1,
@@ -417,6 +408,15 @@
     "answer_id": "many",
     "field": "hidden_gem",
     "weight": 3,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "You’ll enjoy something new and different"
+  },
+    {
+    "question_id": "q9_experience",
+    "answer_id": "many",
+    "field": "beginner_friendly",
+    "weight": -3,
     "mode": "score",
     "value": null,
     "reason_snippet": "You’ll enjoy something new and different"
