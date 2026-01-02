@@ -11,8 +11,17 @@
   {
     "question_id": "q1_group",
     "answer_id": "family_kids",
+    "field": "darkness_level",
+    "weight": -3,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Avoid dark themes for kids"
+  },
+  {
+    "question_id": "q1_group",
+    "answer_id": "family_kids",
     "field": "comedy_score",
-    "weight": 1,
+    "weight": 2,
     "mode": "score",
     "value": null,
     "reason_snippet": "Funny for families"
@@ -20,20 +29,11 @@
   {
     "question_id": "q1_group",
     "answer_id": "family_kids",
-    "field": "darkness_level",
-    "weight": -2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Avoid dark themes"
-  },
-  {
-    "question_id": "q1_group",
-    "answer_id": "family_kids",
     "field": "spectacle_level",
-    "weight": 1,
+    "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Visual and engaging"
+    "reason_snippet": "Visual and engaging for kids"
   },
 
   {
@@ -43,7 +43,7 @@
     "weight": -1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Easier English preferred"
+    "reason_snippet": "Prefer easier English"
   },
   {
     "question_id": "q2_english",
@@ -86,7 +86,7 @@
     "question_id": "q2_english",
     "answer_id": "basic",
     "field": "beginner_friendly",
-    "weight": 2,
+    "weight": 3,
     "mode": "score",
     "value": null,
     "reason_snippet": "Very easy to follow"
@@ -95,10 +95,10 @@
     "question_id": "q2_english",
     "answer_id": "basic",
     "field": "spectacle_level",
-    "weight": 1,
+    "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Visual storytelling"
+    "reason_snippet": "Visual storytelling helps"
   },
   {
     "question_id": "q2_english",
@@ -109,12 +109,30 @@
     "value": null,
     "reason_snippet": "Familiar music helps"
   },
+  {
+    "question_id": "q2_english",
+    "answer_id": "basic",
+    "field": "jukebox",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Familiar songs help with basic English"
+  },
+  {
+    "question_id": "q2_english",
+    "answer_id": "basic",
+    "field": "based_on_movie",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Known story helps with basic English"
+  },
 
   {
     "question_id": "q3_mood",
     "answer_id": "laugh",
     "field": "comedy_score",
-    "weight": 2,
+    "weight": 3,
     "mode": "score",
     "value": null,
     "reason_snippet": "Very funny"
@@ -123,20 +141,19 @@
     "question_id": "q3_mood",
     "answer_id": "laugh",
     "field": "darkness_level",
-    "weight": -2,
+    "weight": -3,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Light-hearted tone"
+    "reason_snippet": "Prefer light-hearted tone"
   },
-
   {
     "question_id": "q3_mood",
     "answer_id": "feel_good",
     "field": "darkness_level",
-    "weight": -1,
+    "weight": -2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Uplifting mood"
+    "reason_snippet": "More uplifting mood"
   },
   {
     "question_id": "q3_mood",
@@ -145,7 +162,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Enjoyable, familiar music"
+    "reason_snippet": "Easy, enjoyable music"
   },
   {
     "question_id": "q3_mood",
@@ -154,9 +171,8 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Easy first musical"
+    "reason_snippet": "Easy to enjoy"
   },
-
   {
     "question_id": "q3_mood",
     "answer_id": "epic_emotional",
@@ -170,26 +186,16 @@
     "question_id": "q3_mood",
     "answer_id": "epic_emotional",
     "field": "spectacle_level",
-    "weight": 1,
+    "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Big, epic staging"
+    "reason_snippet": "Epic staging"
   },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "epic_emotional",
-    "field": "dialogue_level",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Story-driven"
-  },
-
   {
     "question_id": "q3_mood",
     "answer_id": "dark_intense",
     "field": "darkness_level",
-    "weight": 2,
+    "weight": 3,
     "mode": "score",
     "value": null,
     "reason_snippet": "Dark, serious themes"
@@ -203,21 +209,12 @@
     "value": null,
     "reason_snippet": "Not comedy-focused"
   },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "dark_intense",
-    "field": "dialogue_level",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Serious storytelling"
-  },
 
   {
     "question_id": "q4_focus",
     "answer_id": "big_spectacle",
     "field": "spectacle_level",
-    "weight": 2,
+    "weight": 3,
     "mode": "score",
     "value": null,
     "reason_snippet": "Visual wow factor"
@@ -226,17 +223,16 @@
     "question_id": "q4_focus",
     "answer_id": "big_spectacle",
     "field": "high_energy",
-    "weight": 2,
+    "weight": 1,
     "mode": "score",
     "value": null,
     "reason_snippet": "Dynamic production"
   },
-
   {
     "question_id": "q4_focus",
     "answer_id": "strong_story",
     "field": "dialogue_level",
-    "weight": 2,
+    "weight": 3,
     "mode": "score",
     "value": null,
     "reason_snippet": "Story-focused"
@@ -255,10 +251,10 @@
     "question_id": "q5_music",
     "answer_id": "famous_songs",
     "field": "jukebox",
-    "weight": 2,
+    "weight": 5,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Jukebox show (famous songs)"
+    "reason_snippet": "Prefer famous-song (jukebox) musicals"
   },
   {
     "question_id": "q5_music",
@@ -273,29 +269,47 @@
     "question_id": "q5_music",
     "answer_id": "original_music",
     "field": "jukebox",
-    "weight": -2,
+    "weight": -5,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Prefer original score"
+    "reason_snippet": "Prefer original score (downrank jukebox)"
+  },
+  {
+    "question_id": "q5_music",
+    "answer_id": "original_music",
+    "field": "music_familiarity",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Less important to have familiar songs"
   },
 
   {
     "question_id": "q6_energy",
     "answer_id": "high_energy",
     "field": "high_energy",
-    "weight": 2,
+    "weight": 3,
     "mode": "score",
     "value": null,
     "reason_snippet": "High-energy show"
   },
   {
     "question_id": "q6_energy",
-    "answer_id": "chill",
-    "field": "high_energy",
-    "weight": -2,
+    "answer_id": "high_energy",
+    "field": "spectacle_level",
+    "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "More relaxed pace"
+    "reason_snippet": "Big, lively production"
+  },
+  {
+    "question_id": "q6_energy",
+    "answer_id": "chill",
+    "field": "high_energy",
+    "weight": -3,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Prefer a calmer pace"
   },
 
   {
@@ -304,90 +318,102 @@
     "field": "duration_minutes",
     "weight": 0,
     "mode": "filter",
-    "value": "<=120",
+    "value": "<=140",
     "reason_snippet": "Shorter show preferred"
   },
+
   {
-    "question_id": "q7_length",
-    "answer_id": "short",
-    "field": "dialogue_level",
+    "question_id": "q8_classic_vs_hidden",
+    "answer_id": "classic",
+    "field": "classic",
+    "weight": 4,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Prefer famous classics"
+  },
+  {
+    "question_id": "q8_classic_vs_hidden",
+    "answer_id": "classic",
+    "field": "hidden_gem",
+    "weight": -4,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Not looking for hidden gems"
+  },
+  {
+    "question_id": "q8_classic_vs_hidden",
+    "answer_id": "hidden_gem",
+    "field": "hidden_gem",
+    "weight": 4,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Prefer something different"
+  },
+  {
+    "question_id": "q8_classic_vs_hidden",
+    "answer_id": "hidden_gem",
+    "field": "classic",
+    "weight": -4,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Downrank obvious tourist classics"
+  },
+
+  {
+    "question_id": "q9_experience",
+    "answer_id": "first_time",
+    "field": "classic",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Great first musical experience"
+  },
+  {
+    "question_id": "q9_experience",
+    "answer_id": "first_time",
+    "field": "beginner_friendly",
+    "weight": 5,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Easy to enjoy for first-timers"
+  },
+  {
+    "question_id": "q9_experience",
+    "answer_id": "a_few",
+    "field": "classic",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "A good well-known classic can be perfect"
+  },
+  {
+    "question_id": "q9_experience",
+    "answer_id": "many",
+    "field": "hidden_gem",
+    "weight": 3,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "You’ll enjoy something new and different"
+  },
+  {
+    "question_id": "q9_experience",
+    "answer_id": "many",
+    "field": "classic",
     "weight": -1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Less demanding"
+    "reason_snippet": "You’ve probably seen big classics"
   },
   {
-    "question_id": "q7_length",
-    "answer_id": "long",
-    "field": "spectacle_level",
-    "weight": 1,
+    "question_id": "q9_experience",
+    "answer_id": "many",
+    "field": "jukebox",
+    "weight": -1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Big evening show"
+    "reason_snippet": "Prefer less 'hits compilation' shows"
   },
-  {
-    "question_id": "q7_length",
-    "answer_id": "long",
-    "field": "dialogue_level",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "More detailed storytelling"
-  },
-{
-  "question_id": "q8_classic_vs_hidden",
-  "answer_id": "classic",
-  "field": "classic",
-  "weight": 3,
-  "mode": "score",
-  "value": null,
-  "reason_snippet": "Iconic, must‑see classic"
-},
-{
-  "question_id": "q8_classic_vs_hidden",
-  "answer_id": "hidden_gem",
-  "field": "hidden_gem",
-  "weight": 3,
-  "mode": "score",
-  "value": null,
-  "reason_snippet": "Unique hidden gem"
-},
-{
-  "question_id": "q9_experience",
-  "answer_id": "first_time",
-  "field": "classic",
-  "weight": 2,
-  "mode": "score",
-  "value": null,
-  "reason_snippet": "Great first musical experience"
-},
-{
-  "question_id": "q9_experience",
-  "answer_id": "first_time",
-  "field": "beginner_friendly",
-  "weight": 2,
-  "mode": "score",
-  "value": null,
-  "reason_snippet": "Easy to enjoy for first‑timers"
-},
-{
-  "question_id": "q9_experience",
-  "answer_id": "many",
-  "field": "hidden_gem",
-  "weight": 2,
-  "mode": "score",
-  "value": null,
-  "reason_snippet": "Something new and different"
-},
-{
-  "question_id": "q9_experience",
-  "answer_id": "many",
-  "field": "classic",
-  "weight": -1,
-  "mode": "score",
-  "value": null,
-  "reason_snippet": "You’ve probably seen the big classics already"
-},
+
   {
     "question_id": "q10_dates",
     "answer_id": "specific_dates",
@@ -406,86 +432,88 @@
     "value": ">=user_start_date",
     "reason_snippet": "Running during visit"
   },
+
   {
-  "question_id": "q11_seen_before",
-  "answer_id": "lion_king",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=lion_king",
-  "reason_snippet": null
-},
+    "question_id": "q11_seen_before",
+    "answer_id": "wicked",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=wicked",
+    "reason_snippet": null
+  },
   {
-  "question_id": "q11_seen_before",
-  "answer_id": "wicked",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=wicked",
-  "reason_snippet": null
-},
+    "question_id": "q11_seen_before",
+    "answer_id": "hamilton",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=hamilton",
+    "reason_snippet": null
+  },
   {
-  "question_id": "q11_seen_before",
-  "answer_id": "hamilton",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=hamilton",
-  "reason_snippet": null
-},
-{
-  "question_id": "q11_seen_before",
-  "answer_id": "moulin_rouge",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=moulin_rouge",
-  "reason_snippet": null
-},
-{
-  "question_id": "q11_seen_before",
-  "answer_id": "back_to_the_future",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=back_to_the_future",
-  "reason_snippet": null
-},
-{
-  "question_id": "q11_seen_before",
-  "answer_id": "phantom_of_the_opera_of_the_opera",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=phantom_of_the_opera",
-  "reason_snippet": null
-},
-{
-  "question_id": "q11_seen_before",
-  "answer_id": "matilda",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=matilda",
-  "reason_snippet": null
-},
-{
-  "question_id": "q11_seen_before",
-  "answer_id": "book_of_mormon",
-  "field": "id",
-  "weight": 0,
-  "mode": "filter",
-  "value": "!=book_of_mormon",
-  "reason_snippet": null
-},
- {
+    "question_id": "q11_seen_before",
+    "answer_id": "moulin_rouge",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=moulin_rouge",
+    "reason_snippet": null
+  },
+  {
+    "question_id": "q11_seen_before",
+    "answer_id": "lion_king",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=lion_king",
+    "reason_snippet": null
+  },
+  {
+    "question_id": "q11_seen_before",
+    "answer_id": "back_to_the_future",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=back_to_the_future",
+    "reason_snippet": null
+  },
+  {
+    "question_id": "q11_seen_before",
+    "answer_id": "phantom_of_the_opera",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=phantom_of_the_opera",
+    "reason_snippet": null
+  },
+  {
+    "question_id": "q11_seen_before",
+    "answer_id": "matilda",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=matilda",
+    "reason_snippet": null
+  },
+  {
+    "question_id": "q11_seen_before",
+    "answer_id": "book_of_mormon",
+    "field": "id",
+    "weight": 0,
+    "mode": "filter",
+    "value": "!=book_of_mormon",
+    "reason_snippet": null
+  },
+
+  {
     "question_id": "q11_seen_before",
     "answer_id": "wicked",
     "field": "romance_score",
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy emotional and romantic stories"
+    "reason_snippet": "You like emotional storytelling"
   },
   {
     "question_id": "q11_seen_before",
@@ -494,17 +522,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like big, visually impressive shows"
-  },
-
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "hamilton",
-    "field": "dialogue_level",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "You enjoy word‑driven, lyrical storytelling"
+    "reason_snippet": "You like visually impressive shows"
   },
   {
     "question_id": "q11_seen_before",
@@ -513,9 +531,8 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You’re open to more serious themes"
+    "reason_snippet": "You’re open to serious themes"
   },
-
   {
     "question_id": "q11_seen_before",
     "answer_id": "book_of_mormon",
@@ -523,9 +540,8 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You love bold, laugh‑out‑loud comedy"
+    "reason_snippet": "You love bold comedy"
   },
-
   {
     "question_id": "q11_seen_before",
     "answer_id": "moulin_rouge",
@@ -533,7 +549,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy passionate love stories"
+    "reason_snippet": "You enjoy passionate romance"
   },
   {
     "question_id": "q11_seen_before",
@@ -542,9 +558,17 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like shows with famous songs"
+    "reason_snippet": "You enjoy famous-song musicals"
   },
-
+  {
+    "question_id": "q11_seen_before",
+    "answer_id": "moulin_rouge",
+    "field": "spectacle_level",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "You like big, showy productions"
+  },
   {
     "question_id": "q11_seen_before",
     "answer_id": "phantom_of_the_opera",
@@ -572,15 +596,14 @@
     "value": null,
     "reason_snippet": "You’re comfortable with darker stories"
   },
-
   {
     "question_id": "q11_seen_before",
     "answer_id": "back_to_the_future",
     "field": "spectacle_level",
-    "weight": 1,
+    "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like fun, high‑impact staging"
+    "reason_snippet": "You like fun, high-impact staging"
   },
   {
     "question_id": "q11_seen_before",
@@ -589,9 +612,8 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy accessible, crowd‑pleasing shows"
+    "reason_snippet": "You enjoy crowd-pleasing shows"
   },
-
   {
     "question_id": "q11_seen_before",
     "answer_id": "lion_king",
@@ -599,7 +621,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy family‑friendly theatre"
+    "reason_snippet": "You enjoy family-friendly theatre"
   },
   {
     "question_id": "q11_seen_before",
@@ -610,12 +632,11 @@
     "value": null,
     "reason_snippet": "You appreciate visually stunning productions"
   },
-
   {
     "question_id": "q11_seen_before",
     "answer_id": "matilda",
     "field": "family_score",
-    "weight": 1,
+    "weight": 2,
     "mode": "score",
     "value": null,
     "reason_snippet": "You like shows that work well for families"
