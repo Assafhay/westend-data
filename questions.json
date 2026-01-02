@@ -1,0 +1,104 @@
+[
+  {
+    "question_id": "q1_group",
+    "question_text": "Who are you going with?",
+    "type": "single",
+    "is_hard_filter": false,
+    "answers": [
+      { "answer_id": "solo", "answer_text": "Solo" },
+      { "answer_id": "couple", "answer_text": "Couple" },
+      { "answer_id": "friends", "answer_text": "Friends" },
+      { "answer_id": "family_kids", "answer_text": "Family with kids" }
+    ]
+  },
+  {
+    "question_id": "q2_english",
+    "question_text": "How comfortable are you with English?",
+    "type": "single",
+    "is_hard_filter": false,
+    "answers": [
+      { "answer_id": "native_or_fluent", "answer_text": "Very comfortable / fluent" },
+      { "answer_id": "ok_but_not_perfect", "answer_text": "OK but not perfect" },
+      { "answer_id": "basic", "answer_text": "Basic English" }
+    ]
+  },
+  {
+    "question_id": "q3_mood",
+    "question_text": "What mood do you want? (You can choose up to 2)",
+    "type": "multi",
+    "is_hard_filter": false,
+    "max_selections": 2,
+    "answers": [
+      { "answer_id": "laugh", "answer_text": "I want to laugh" },
+      { "answer_id": "feel_good", "answer_text": "Feel-good and uplifting" },
+      { "answer_id": "epic_emotional", "answer_text": "Epic / emotional" },
+      { "answer_id": "dark_intense", "answer_text": "Dark / intense" }
+    ]
+  },
+  {
+    "question_id": "q4_focus",
+    "question_text": "What matters more?",
+    "type": "single",
+    "is_hard_filter": false,
+    "answers": [
+      { "answer_id": "big_spectacle", "answer_text": "Big spectacle" },
+      { "answer_id": "strong_story", "answer_text": "Strong story" },
+      { "answer_id": "no_preference", "answer_text": "No preference" }
+    ]
+  },
+  {
+    "question_id": "q5_music",
+    "question_text": "What kind of music do you prefer?",
+    "type": "single",
+    "is_hard_filter": false,
+    "answers": [
+      { "answer_id": "famous_songs", "answer_text": "Famous songs I know" },
+      { "answer_id": "original_music", "answer_text": "Original music" },
+      { "answer_id": "no_preference", "answer_text": "No preference" }
+    ]
+  },
+  {
+    "question_id": "q6_energy",
+    "question_text": "Energy level?",
+    "type": "single",
+    "is_hard_filter": false,
+    "answers": [
+      { "answer_id": "high_energy", "answer_text": "High energy" },
+      { "answer_id": "chill", "answer_text": "Chill / relaxed" },
+      { "answer_id": "no_preference", "answer_text": "No preference" }
+    ]
+  },
+  {
+    "question_id": "q7_length",
+    "question_text": "How long do you want the show to be?",
+    "type": "single",
+    "is_hard_filter": true,
+    "answers": [
+      { "answer_id": "short", "answer_text": "Short (up to ~2 hours)" },
+      { "answer_id": "long", "answer_text": "Long is fine" },
+      { "answer_id": "dont_care", "answer_text": "Don’t care" }
+    ]
+  },
+  {
+    "question_id": "q8_budget",
+    "question_text": "Ticket budget?",
+    "type": "single",
+    "is_hard_filter": false,
+    "answers": [
+      { "answer_id": "budget", "answer_text": "Budget" },
+      { "answer_id": "mid", "answer_text": "Mid-range" },
+      { "answer_id": "premium", "answer_text": "Premium" },
+      { "answer_id": "dont_care", "answer_text": "Don’t care" }
+    ]
+  },
+  {
+    "question_id": "q9_dates",
+    "question_text": "What dates will you be in London?",
+    "type": "date_range",
+    "is_hard_filter": true,
+    "answers": [
+      { "answer_id": "all_dates", "answer_text": "All dates / flexible" },
+      { "answer_id": "specific_dates", "answer_text": "Specific dates" }
+    ]
+  }
+]

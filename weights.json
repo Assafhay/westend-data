@@ -1,0 +1,414 @@
+[
+  {
+    "question_id": "q1_group",
+    "answer_id": "family_kids",
+    "field": "family_score",
+    "weight": 0,
+    "mode": "filter",
+    "value": ">=3",
+    "reason_snippet": "Suitable for kids"
+  },
+  {
+    "question_id": "q1_group",
+    "answer_id": "family_kids",
+    "field": "comedy_score",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Funny for families"
+  },
+  {
+    "question_id": "q1_group",
+    "answer_id": "family_kids",
+    "field": "darkness_level",
+    "weight": -2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Avoid dark themes"
+  },
+  {
+    "question_id": "q1_group",
+    "answer_id": "family_kids",
+    "field": "spectacle_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Visual and engaging"
+  },
+
+  {
+    "question_id": "q2_english",
+    "answer_id": "ok_but_not_perfect",
+    "field": "english_score",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Easier English preferred"
+  },
+  {
+    "question_id": "q2_english",
+    "answer_id": "ok_but_not_perfect",
+    "field": "beginner_friendly",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Accessible for tourists"
+  },
+  {
+    "question_id": "q2_english",
+    "answer_id": "ok_but_not_perfect",
+    "field": "dialogue_level",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Less dialogue-heavy"
+  },
+
+  {
+    "question_id": "q2_english",
+    "answer_id": "basic",
+    "field": "english_score",
+    "weight": 0,
+    "mode": "filter",
+    "value": "<=2",
+    "reason_snippet": "Avoid complicated English"
+  },
+  {
+    "question_id": "q2_english",
+    "answer_id": "basic",
+    "field": "dialogue_level",
+    "weight": 0,
+    "mode": "filter",
+    "value": "<=2",
+    "reason_snippet": "Not text-heavy"
+  },
+  {
+    "question_id": "q2_english",
+    "answer_id": "basic",
+    "field": "beginner_friendly",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Very easy to follow"
+  },
+  {
+    "question_id": "q2_english",
+    "answer_id": "basic",
+    "field": "spectacle_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Visual storytelling"
+  },
+  {
+    "question_id": "q2_english",
+    "answer_id": "basic",
+    "field": "music_familiarity",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Familiar music helps"
+  },
+
+  {
+    "question_id": "q3_mood",
+    "answer_id": "laugh",
+    "field": "comedy_score",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Very funny"
+  },
+  {
+    "question_id": "q3_mood",
+    "answer_id": "laugh",
+    "field": "darkness_level",
+    "weight": -2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Light-hearted tone"
+  },
+
+  {
+    "question_id": "q3_mood",
+    "answer_id": "feel_good",
+    "field": "darkness_level",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Uplifting mood"
+  },
+  {
+    "question_id": "q3_mood",
+    "answer_id": "feel_good",
+    "field": "music_familiarity",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Enjoyable, familiar music"
+  },
+  {
+    "question_id": "q3_mood",
+    "answer_id": "feel_good",
+    "field": "beginner_friendly",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Easy first musical"
+  },
+
+  {
+    "question_id": "q3_mood",
+    "answer_id": "epic_emotional",
+    "field": "romance_score",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Emotional story"
+  },
+  {
+    "question_id": "q3_mood",
+    "answer_id": "epic_emotional",
+    "field": "spectacle_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Big, epic staging"
+  },
+  {
+    "question_id": "q3_mood",
+    "answer_id": "epic_emotional",
+    "field": "dialogue_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Story-driven"
+  },
+
+  {
+    "question_id": "q3_mood",
+    "answer_id": "dark_intense",
+    "field": "darkness_level",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Dark, serious themes"
+  },
+  {
+    "question_id": "q3_mood",
+    "answer_id": "dark_intense",
+    "field": "comedy_score",
+    "weight": -2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Not comedy-focused"
+  },
+  {
+    "question_id": "q3_mood",
+    "answer_id": "dark_intense",
+    "field": "dialogue_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Serious storytelling"
+  },
+
+  {
+    "question_id": "q4_focus",
+    "answer_id": "big_spectacle",
+    "field": "spectacle_level",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Visual wow factor"
+  },
+  {
+    "question_id": "q4_focus",
+    "answer_id": "big_spectacle",
+    "field": "high_energy",
+    "weight": 1,
+    "mode": "score",
+    "value": "TRUE",
+    "reason_snippet": "Dynamic production"
+  },
+
+  {
+    "question_id": "q4_focus",
+    "answer_id": "strong_story",
+    "field": "dialogue_level",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Story-focused"
+  },
+  {
+    "question_id": "q4_focus",
+    "answer_id": "strong_story",
+    "field": "romance_score",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Character relationships"
+  },
+
+  {
+    "question_id": "q5_music",
+    "answer_id": "famous_songs",
+    "field": "jukebox",
+    "weight": 0,
+    "mode": "score",
+    "value": "TRUE",
+    "reason_snippet": "Famous songs included"
+  },
+  {
+    "question_id": "q5_music",
+    "answer_id": "famous_songs",
+    "field": "music_familiarity",
+    "weight": 2,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Well-known music"
+  },
+
+  {
+    "question_id": "q5_music",
+    "answer_id": "original_music",
+    "field": "jukebox",
+    "weight": 0,
+    "mode": "score",
+    "value": "FALSE",
+    "reason_snippet": "Not a jukebox musical"
+  },
+  {
+    "question_id": "q5_music",
+    "answer_id": "original_music",
+    "field": "music_familiarity",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Less familiar score"
+  },
+
+  {
+    "question_id": "q6_energy",
+    "answer_id": "high_energy",
+    "field": "high_energy",
+    "weight": 0,
+    "mode": "score",
+    "value": "TRUE",
+    "reason_snippet": "High-energy show"
+  },
+  {
+    "question_id": "q6_energy",
+    "answer_id": "high_energy",
+    "field": "spectacle_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Big, lively production"
+  },
+
+  {
+    "question_id": "q6_energy",
+    "answer_id": "chill",
+    "field": "high_energy",
+    "weight": 0,
+    "mode": "score",
+    "value": "FALSE",
+    "reason_snippet": "More relaxed pace"
+  },
+  {
+    "question_id": "q6_energy",
+    "answer_id": "chill",
+    "field": "dialogue_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Calmer storytelling"
+  },
+
+  {
+    "question_id": "q7_length",
+    "answer_id": "short",
+    "field": "duration_minutes",
+    "weight": 0,
+    "mode": "filter",
+    "value": "<=120",
+    "reason_snippet": "Shorter show preferred"
+  },
+  {
+    "question_id": "q7_length",
+    "answer_id": "short",
+    "field": "dialogue_level",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Less demanding"
+  },
+
+  {
+    "question_id": "q7_length",
+    "answer_id": "long",
+    "field": "spectacle_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Big evening show"
+  },
+  {
+    "question_id": "q7_length",
+    "answer_id": "long",
+    "field": "dialogue_level",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "More detailed storytelling"
+  },
+
+  {
+    "question_id": "q8_budget",
+    "answer_id": "budget",
+    "field": "classic",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Avoid premium classics"
+  },
+  {
+    "question_id": "q8_budget",
+    "answer_id": "mid",
+    "field": "classic",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Popular, good value"
+  },
+  {
+    "question_id": "q8_budget",
+    "answer_id": "premium",
+    "field": "classic",
+    "weight": 1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Big iconic production"
+  },
+
+  {
+    "question_id": "q9_dates",
+    "answer_id": "specific_dates",
+    "field": "start_date",
+    "weight": 0,
+    "mode": "filter",
+    "value": "<=user_close_date",
+    "reason_snippet": "Running during visit"
+  },
+  {
+    "question_id": "q9_dates",
+    "answer_id": "specific_dates",
+    "field": "close_date",
+    "weight": 0,
+    "mode": "filter",
+    "value": ">=user_start_date",
+    "reason_snippet": "Running during visit"
+  }
+]
