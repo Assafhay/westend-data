@@ -35,7 +35,33 @@
     "value": null,
     "reason_snippet": "Visual and engaging for kids"
   },
-
+ {
+    "question_id": "q1_group",
+    "answer_id": "solo",
+    "field": "family_score",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Less focus on family‑oriented shows"
+  },
+  {
+    "question_id": "q1_group",
+    "answer_id": "couple",
+    "field": "family_score",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Less focus on family‑oriented shows"
+  },
+  {
+    "question_id": "q1_group",
+    "answer_id": "friends",
+    "field": "family_score",
+    "weight": -1,
+    "mode": "score",
+    "value": null,
+    "reason_snippet": "Less focus on family‑oriented shows"
+  },
   {
     "question_id": "q2_english",
     "answer_id": "ok_but_not_perfect",
