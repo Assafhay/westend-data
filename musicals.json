@@ -1,6 +1,6 @@
 [
  {
-   "ID": "lion_king",
+   "id": "lion_king",
    "show_title": "The Lion King",
    "type": "musical",
    "description": "A visually stunning stage adaptation of the Disney animated film, exploring the circle of life through music, dance, and puppetry.",
@@ -29,7 +29,7 @@
    "off_westend": 0
  },
  {
-   "ID": "les_miserables",
+   "id": "les_miserables",
    "show_title": "Les Misérables",
    "type": "musical",
    "description": "A powerful tale of love, justice, and redemption set against the backdrop of the French Revolution.",
@@ -58,7 +58,7 @@
    "off_westend": 0
  },
  {
-   "ID": "back_to_the_future",
+   "id": "back_to_the_future",
    "show_title": "Back to the Future: The Musical",
    "type": "musical",
    "description": "A time-traveling musical adventure based on the iconic film, filled with 80s vibes and sci-fi flair.",
@@ -87,7 +87,7 @@
    "off_westend": 0
  },
  {
-   "ID": "moulin_rouge",
+   "id": "moulin_rouge",
    "show_title": "Moulin Rouge! The Musical",
    "type": "musical",
    "description": "A dazzling spectacle of love and freedom in Bohemian Paris, packed with pop music mashups.",
@@ -116,7 +116,7 @@
    "off_westend": 0
  },
  {
-   "ID": "mj_the_musical",
+   "id": "mj_the_musical",
    "show_title": "MJ the Musical",
    "type": "musical",
    "description": "A look behind the curtain at Michael Jackson’s creative process, featuring his iconic hits and dance.",
@@ -145,7 +145,7 @@
    "off_westend": 0
  },
  {
-   "ID": "hamilton",
+   "id": "hamilton",
    "show_title": "Hamilton",
    "type": "musical",
    "description": "A revolutionary retelling of Alexander Hamilton’s life using hip-hop, R&B, and dynamic storytelling.",
@@ -174,7 +174,7 @@
    "off_westend": 0
  },
  {
-   "ID": "wicked",
+   "id": "wicked",
    "show_title": "Wicked",
    "type": "musical",
    "description": "The untold story of the witches of Oz, challenging ideas of good and evil through magic and friendship.",
@@ -203,7 +203,7 @@
    "off_westend": 0
  },
  {
-   "ID": "mamma_mia",
+   "id": "mamma_mia",
    "show_title": "Mamma Mia!",
    "type": "musical",
    "description": "A feel-good musical set to ABBA’s biggest hits, centered around love, family, and island weddings.",
@@ -232,7 +232,7 @@
    "off_westend": 0
  },
  {
-   "ID": "devil_wears_prada",
+   "id": "devil_wears_prada",
    "show_title": "The Devil Wears Prada",
    "type": "musical",
    "description": "A fashion-forward musical adaptation of the hit film, following a young journalist in the world of couture.",
@@ -261,7 +261,7 @@
    "off_westend": 0
  },
  {
-   "ID": "cabaret",
+   "id": "cabaret",
    "show_title": "Cabaret",
    "type": "musical",
    "description": "A haunting, seductive journey into a 1930s Berlin nightclub during the rise of the Nazi regime.",
@@ -290,7 +290,7 @@
    "off_westend": 0
  },
  {
-   "ID": "six",
+   "id": "six",
    "show_title": "SIX",
    "type": "musical",
    "description": "A fierce, fun pop concert where Henry VIII’s six wives reclaim their stories in their own voices.",
@@ -319,7 +319,7 @@
    "off_westend": 0
  },
  {
-   "ID": "matilda",
+   "id": "matilda",
    "show_title": "Matilda The Musical",
    "type": "musical",
    "description": "A witty, magical tale of a gifted girl who stands up to injustice using her intelligence and telekinesis.",
@@ -348,7 +348,7 @@
    "off_westend": 0
  },
  {
-   "ID": "book_of_mormon",
+   "id": "book_of_mormon",
    "show_title": "The Book of Mormon",
    "type": "musical",
    "description": "A cheeky and irreverent musical about two young missionaries spreading their faith in Uganda.",
@@ -377,7 +377,7 @@
    "off_westend": 0
  },
  {
-   "ID": "phantom_of_the_opera",
+   "id": "phantom_of_the_opera",
    "show_title": "The Phantom of the Opera",
    "type": "musical",
    "description": "A gothic love story between a mysterious musical genius and a young soprano in the Paris Opera House.",
@@ -406,7 +406,7 @@
    "off_westend": 0
  },
  {
-   "ID": "hadestown",
+   "id": "hadestown",
    "show_title": "Hadestown",
    "type": "musical",
    "description": "A soulful retelling of the Orpheus and Eurydice myth, blending folk, jazz, and poetic storytelling.",
@@ -435,7 +435,7 @@
    "off_westend": 0
  },
  {
-   "ID": "oliver",
+   "id": "oliver",
    "show_title": "Oliver!",
    "type": "musical",
    "description": "A heartwarming and gritty adaptation of Dickens' classic, following an orphan’s search for family.",
@@ -464,7 +464,7 @@
    "off_westend": 0
  },
  {
-   "ID": "operation_mincemeat",
+   "id": "operation_mincemeat",
    "show_title": "Operation Mincemeat",
    "type": "musical",
    "description": "A wildly inventive musical comedy about a real WWII spy plot that helped trick the Nazis.",
@@ -493,7 +493,7 @@
    "off_westend": 0
  },
  {
-   "ID": "titanique",
+   "id": "titanique",
    "show_title": "Titanique",
    "type": "musical",
    "description": "A hilarious parody of Titanic set to Céline Dion songs and full of campy comedy.",
@@ -522,7 +522,7 @@
    "off_westend": 0
  },
  {
-   "ID": "starlight_express",
+   "id": "starlight_express",
    "show_title": "Starlight Express",
    "type": "musical",
    "description": "A high-speed race musical with performers on roller skates playing trains in a child’s imagination.",
@@ -551,7 +551,7 @@
    "off_westend": 0
  },
  {
-   "ID": "hercules",
+   "id": "hercules",
    "show_title": "Hercules",
    "type": "musical",
    "description": "A mythological musical following the journey of a young demigod discovering heroism and love.",
@@ -580,7 +580,7 @@
    "off_westend": 0
  },
  {
-   "ID": "paddington",
+   "id": "paddington",
    "show_title": "Paddington",
    "type": "musical",
    "description": "A warm, funny, family‑friendly adventure starring London’s most lovable bear. Full of charm, British humor, catchy songs, and plenty of marmalade mishaps, it’s a sweet, feel‑good show that kids love and adults enjoy just as much.",
@@ -609,7 +609,7 @@
    "off_westend": 0
  },
  {
-   "ID": "the_producers",
+   "id": "the_producers",
    "show_title": "The Producers",
    "type": "musical",
    "description": "A hilarious comedy about two scheming theatre producers who try to make money by creating the worst show ever - only for everything to go wildly wrong.",
@@ -638,7 +638,7 @@
    "off_westend": 0
  },
  {
-   "ID": "just_for_one_day",
+   "id": "just_for_one_day",
    "show_title": "Just For One Day",
    "type": "musical",
    "description": "A feel‑good, high‑energy musical inspired by the iconic 1985 Live Aid concert. It celebrates music history, massive rock anthems, and the spirit of coming together to change the world. Expect nostalgia, emotional moments, and huge crowd‑pleasing performances.",
@@ -667,7 +667,7 @@
    "off_westend": 0
  },
  {
-   "ID": "into_the_woods",
+   "id": "into_the_woods",
    "show_title": "Into the Woods",
    "type": "musical",
    "description": "A twist on fairy tales where Cinderella, Little Red Riding Hood, Jack, and others discover that getting your wish may come with consequences. Smart, emotional, and magical.",
@@ -696,7 +696,7 @@
    "off_westend": 1
  },
  {
-   "ID": "kinky_boots",
+   "id": "kinky_boots",
    "show_title": "Kinky Boots",
    "type": "musical",
    "description": "A heartwarming, fabulous story about a struggling shoe factory that is saved by partnering with a glamorous drag queen—full of fun, glitter, and big heart.",
@@ -725,7 +725,7 @@
    "off_westend": 0
  },
  {
-   "ID": "avenue_q",
+   "id": "avenue_q",
    "show_title": "Avenue Q",
    "type": "musical",
    "description": "A comedy with puppets that definitely isn’t for kids—about adulthood, love, jobs, and figuring out life in a very funny, outrageous way.",
@@ -754,7 +754,7 @@
    "off_westend": 0
  },
  {
-   "ID": "im_every_woman_chaka_khan",
+   "id": "im_every_woman_chaka_khan",
    "show_title": "I'm Every Woman: The Chaka Khan Musical",
    "type": "musical",
    "description": "A celebration of Chaka Khan’s music and life, packed with powerhouse vocals, soul classics, disco energy, and inspiration.",
@@ -783,7 +783,7 @@
    "off_westend": 0
  },
  {
-   "ID": "the_choir_of_man",
+   "id": "the_choir_of_man",
    "show_title": "The Choir of Man",
    "type": "musical",
    "description": "A joyful, beer‑filled, feel‑good show set in a pub with a cast of men singing powerful harmonies, telling stories, and celebrating friendship.",
@@ -811,4 +811,5 @@
    "hidden_gem": 0,
    "off_westend": 0
  }
+
 ]
