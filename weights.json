@@ -52,7 +52,7 @@
     "weight": -1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Slightly downrank very family/kid-focused shows"
+    "reason_snippet": "A show that fits both adults and teens"
   },
 
   {
@@ -71,7 +71,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Accessible for tourists"
+    "reason_snippet": "Great for beginners and non-English speakers"
   },
   {
     "question_id": "q2_english",
@@ -90,7 +90,7 @@
     "weight": 0,
     "mode": "filter",
     "value": "<=2",
-    "reason_snippet": "Avoid complicated English"
+    "reason_snippet": "Easier English"
   },
   {
     "question_id": "q2_english",
@@ -126,7 +126,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Familiar music helps"
+    "reason_snippet": "Familiar music makes it easier to follow for non-English speakers"
   },
   {
     "question_id": "q2_english",
@@ -135,7 +135,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Familiar songs help with basic English"
+    "reason_snippet": "Familiar songs makes it easier to follow for non-English speakers"
   },
   {
     "question_id": "q2_english",
@@ -144,7 +144,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Known story helps with basic English"
+    "reason_snippet": "Familiar story makes it easier to follow for non-English speakers"
   },
 
   {
@@ -273,7 +273,7 @@
     "weight": 5,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Prefer famous-song (jukebox) musicals"
+    "reason_snippet": "Well-known music"
   },
   {
     "question_id": "q5_music",
@@ -291,7 +291,7 @@
     "weight": -5,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Prefer original score (downrank jukebox)"
+    "reason_snippet": "Prefer original score"
   },
   {
     "question_id": "q5_music",
@@ -376,7 +376,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Crowd-favourite musical"
+    "reason_snippet": "Fan-favourite musical"
   },
   {
     "question_id": "q8_classic_vs_hidden",
@@ -385,7 +385,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Iconic titles are preferred"
+    "reason_snippet": "One of the "Must See" when in London"
   },
 
   {
@@ -404,7 +404,7 @@
     "weight": -4,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Downrank obvious tourist classics"
+    "reason_snippet": "Since you don't want the obvious tourist classics"
   },
 
   {
@@ -459,7 +459,7 @@
     "weight": -1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "Prefer less 'hits compilation' shows"
+    "reason_snippet": "Prefer more original and creative shows"
   },
 
   {
@@ -561,7 +561,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy emotional and romantic stories"
+    "reason_snippet": "Since you liked Wicked, you enjoy emotional and romantic stories"
   },
   {
     "question_id": "q11_seen_before",
@@ -570,7 +570,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like visually impressive shows"
+    "reason_snippet": "Since you enjoyed Wicked, You like visually impressive shows"
   },
   {
     "question_id": "q11_seen_before",
@@ -579,7 +579,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You’re open to more serious themes"
+    "reason_snippet": "Since you enjoyed Hamilton, You’re open to more serious themes"
   },
   {
     "question_id": "q11_seen_before",
@@ -588,7 +588,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You love bold, laugh‑out‑loud comedy"
+    "reason_snippet": "Since you enjoyed Book of Mormon, You love bold, laugh‑out‑loud comedy"
   },
   {
     "question_id": "q11_seen_before",
@@ -597,7 +597,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy passionate love stories"
+    "reason_snippet": "Since you enjoyed Moulin Rouge, You enjoy passionate love stories"
   },
   {
     "question_id": "q11_seen_before",
@@ -606,7 +606,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like shows with famous songs"
+    "reason_snippet": "Since you enjoyed Moulin Rouge, You might enjoy shows with famous songs"
   },
   {
     "question_id": "q11_seen_before",
@@ -615,7 +615,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like big, showy productions"
+    "reason_snippet": "Since you enjoyed Moulin Rouge, You like big, showy productions"
   },
   {
     "question_id": "q11_seen_before",
@@ -624,7 +624,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy grand, epic productions"
+    "reason_snippet": "Since you enjoyed Phantom of the Opera, You enjoy grand, epic productions"
   },
   {
     "question_id": "q11_seen_before",
@@ -633,7 +633,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You’re drawn to dramatic romance"
+    "reason_snippet": "Since you enjoyed Phantom of the Opera, You’re drawn to dramatic romance"
   },
   {
     "question_id": "q11_seen_before",
@@ -642,7 +642,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You’re comfortable with darker stories"
+    "reason_snippet": "Since you enjoyed Phantom of the Opera, You’re comfortable with darker stories"
   },
   {
     "question_id": "q11_seen_before",
@@ -651,7 +651,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like fun, high‑impact staging"
+    "reason_snippet": "Since you enjoyed Back to the Future, You like fun, high‑impact staging"
   },
   {
     "question_id": "q11_seen_before",
@@ -660,7 +660,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy accessible, crowd‑pleasing shows"
+    "reason_snippet": "Since you enjoyed Back to the Future, You enjoy accessible, crowd‑pleasing shows"
   },
   {
     "question_id": "q11_seen_before",
@@ -669,7 +669,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy family‑friendly theatre"
+    "reason_snippet": "Since you enjoyed The Lion King, You enjoy family‑friendly theatre"
   },
   {
     "question_id": "q11_seen_before",
@@ -678,7 +678,7 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You appreciate visually stunning productions"
+    "reason_snippet": "Since you enjoyed The Lion King, You appreciate visually stunning productions"
   },
   {
     "question_id": "q11_seen_before",
@@ -687,7 +687,7 @@
     "weight": 2,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You like shows that work well for families"
+    "reason_snippet": "Since you enjoyed Matilda, You like shows that work well for families"
   },
   {
     "question_id": "q11_seen_before",
@@ -696,6 +696,6 @@
     "weight": 1,
     "mode": "score",
     "value": null,
-    "reason_snippet": "You enjoy clever, playful humor"
+    "reason_snippet": "Since you enjoyed Matilda, You enjoy clever, playful humor"
   }
 ]
