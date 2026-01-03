@@ -1,5 +1,4 @@
 [
-  /* q1_group – who are you going with? */
   {
     "question_id": "q1_group",
     "answer_id": "family_kids",
@@ -56,7 +55,6 @@
     "reason_snippet": "Slightly downrank very family/kid-focused shows"
   },
 
-  /* q2_english – English comfort */
   {
     "question_id": "q2_english",
     "answer_id": "ok_but_not_perfect",
@@ -149,7 +147,6 @@
     "reason_snippet": "Known story helps with basic English"
   },
 
-  /* q3_mood – mood (no dialogue_level weights here) */
   {
     "question_id": "q3_mood",
     "answer_id": "laugh",
@@ -232,7 +229,6 @@
     "reason_snippet": "Not comedy-focused"
   },
 
-  /* q4_focus – spectacle vs story */
   {
     "question_id": "q4_focus",
     "answer_id": "big_spectacle",
@@ -270,7 +266,6 @@
     "reason_snippet": "Character relationships"
   },
 
-  /* q5_music – famous vs original */
   {
     "question_id": "q5_music",
     "answer_id": "famous_songs",
@@ -308,7 +303,6 @@
     "reason_snippet": "Less important to have familiar songs"
   },
 
-  /* q6_energy – overall pace */
   {
     "question_id": "q6_energy",
     "answer_id": "high_energy",
@@ -337,7 +331,6 @@
     "reason_snippet": "Prefer a calmer pace"
   },
 
-  /* q7_length – only filter, no scoring */
   {
     "question_id": "q7_length",
     "answer_id": "short",
@@ -348,7 +341,6 @@
     "reason_snippet": "Not too long"
   },
 
-  /* q8_classic_vs_hidden – classic / must_see / hidden_gem */
   {
     "question_id": "q8_classic_vs_hidden",
     "answer_id": "classic",
@@ -415,7 +407,6 @@
     "reason_snippet": "Downrank obvious tourist classics"
   },
 
-  /* q9_experience – how many musicals seen */
   {
     "question_id": "q9_experience",
     "answer_id": "first_time",
@@ -471,7 +462,6 @@
     "reason_snippet": "Prefer less 'hits compilation' shows"
   },
 
-  /* q10_dates – date range filters */
   {
     "question_id": "q10_dates",
     "answer_id": "specific_dates",
@@ -491,7 +481,6 @@
     "reason_snippet": "Show is still running during visit"
   },
 
-  /* q11_seen_before – exclude seen shows */
   {
     "question_id": "q11_seen_before",
     "answer_id": "wicked",
@@ -565,7 +554,6 @@
     "reason_snippet": null
   },
 
-  /* q11_seen_before – taste-matching boosts */
   {
     "question_id": "q11_seen_before",
     "answer_id": "wicked",
