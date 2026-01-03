@@ -5,9 +5,8 @@
     "type": "single",
     "is_hard_filter": false,
     "answers": [
-      { "answer_id": "solo", "answer_text": "Solo" },
-      { "answer_id": "couple", "answer_text": "Couple" },
-      { "answer_id": "friends", "answer_text": "Friends" },
+      { "answer_id": "adults", "answer_text": "Adults Only" },
+      { "answer_id": "adults_and_teens", "answer_text": "Adults and Teens" },
       { "answer_id": "family_kids", "answer_text": "Family with kids" }
     ]
   },
@@ -24,20 +23,20 @@
   },
   {
     "question_id": "q3_mood",
-    "question_text": "What mood do you want? (You can choose up to 2)",
+    "question_text": "What are you in the mood for? (You can choose up to 2)",
     "type": "multi",
     "is_hard_filter": false,
     "max_selections": 2,
     "answers": [
       { "answer_id": "laugh", "answer_text": "I want to laugh" },
       { "answer_id": "feel_good", "answer_text": "Feel-good and uplifting" },
-      { "answer_id": "epic_emotional", "answer_text": "Epic / emotional" },
-      { "answer_id": "dark_intense", "answer_text": "Dark / intense" }
+      { "answer_id": "epic_emotional", "answer_text": "See something epic and get emotional" },
+      { "answer_id": "dark_intense", "answer_text": "I'm in the mood for dark or intense" }
     ]
   },
   {
     "question_id": "q4_focus",
-    "question_text": "What matters more?",
+    "question_text": "What matters to you more?",
     "type": "single",
     "is_hard_filter": false,
     "answers": [
@@ -52,8 +51,8 @@
     "type": "single",
     "is_hard_filter": false,
     "answers": [
-      { "answer_id": "famous_songs", "answer_text": "Famous songs I know" },
-      { "answer_id": "original_music", "answer_text": "Original music" },
+      { "answer_id": "famous_songs", "answer_text": "Songs I know" },
+      { "answer_id": "original_music", "answer_text": "Original new music" },
       { "answer_id": "no_preference", "answer_text": "No preference" }
     ]
   },
@@ -64,7 +63,7 @@
     "is_hard_filter": false,
     "answers": [
       { "answer_id": "high_energy", "answer_text": "High energy" },
-      { "answer_id": "chill", "answer_text": "Chill / relaxed" },
+      { "answer_id": "chill", "answer_text": "Chill & relaxed" },
       { "answer_id": "no_preference", "answer_text": "No preference" }
     ]
   },
@@ -74,8 +73,7 @@
     "type": "single",
     "is_hard_filter": true,
     "answers": [
-      { "answer_id": "short", "answer_text": "Short (up to ~2 hours)" },
-      { "answer_id": "long", "answer_text": "Long is fine" },
+      { "answer_id": "short", "answer_text": "Not too long" },
       { "answer_id": "dont_care", "answer_text": "Don’t care" }
     ]
   },
@@ -85,8 +83,9 @@
   "type": "single",
   "is_hard_filter": false,
   "answers": [
-    { "answer_id": "classic", "answer_text": "A famous / classic musical" },
-    { "answer_id": "hidden_gem", "answer_text": "A hidden gem / something different" },
+    { "answer_id": "classic", "answer_text": "A classic musical" },
+    { "answer_id": "must_see", "answer_text": "A must see, something everyone loves" },
+    { "answer_id": "hidden_gem", "answer_text": "A hidden gem, something different" },
     { "answer_id": "dont_care", "answer_text": "No preference" }
   ]
   },
@@ -103,11 +102,11 @@
 },
   {
     "question_id": "q10_dates",
-    "question_text": "What dates will you be in London?",
+    "question_text": "When will you be in London?",
     "type": "date_range",
     "is_hard_filter": true,
     "answers": [
-      { "answer_id": "all_dates", "answer_text": "All dates / flexible" },
+      { "answer_id": "all_dates", "answer_text": "All dates, I'm flexible" },
       { "answer_id": "specific_dates", "answer_text": "Specific dates" }
     ]
   },
