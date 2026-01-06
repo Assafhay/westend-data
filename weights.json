@@ -303,33 +303,7 @@
     "reason_snippet": "Less important to have familiar songs"
   },
 
-  {
-    "question_id": "q6_energy",
-    "answer_id": "high_energy",
-    "field": "high_energy",
-    "weight": 3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "High-energy show"
-  },
-  {
-    "question_id": "q6_energy",
-    "answer_id": "high_energy",
-    "field": "spectacle_level",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Big, lively production"
-  },
-  {
-    "question_id": "q6_energy",
-    "answer_id": "chill",
-    "field": "high_energy",
-    "weight": -3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer a calmer pace"
-  },
+
 
   {
     "question_id": "q7_length",
