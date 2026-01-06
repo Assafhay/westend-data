@@ -57,17 +57,6 @@
     ]
   },
   {
-    "question_id": "q6_energy",
-    "question_text": "Energy level?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "high_energy", "answer_text": "High energy" },
-      { "answer_id": "chill", "answer_text": "Chill & relaxed" },
-      { "answer_id": "no_preference", "answer_text": "No preference" }
-    ]
-  },
-  {
     "question_id": "q7_length",
     "question_text": "How long do you want the show to be?",
     "type": "single",
