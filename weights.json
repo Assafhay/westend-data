@@ -671,5 +671,36 @@
     "mode": "score",
     "value": null,
     "reason_snippet": "Since you enjoyed Matilda, You enjoy clever, playful humor"
-  }
+  },
+  [
+  { "question_id": "q11_seen_before", "answer_id": "lion_king", "field": "id", "weight": 0, "mode": "filter", "value": "!=lion_king", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "les_miserables", "field": "id", "weight": 0, "mode": "filter", "value": "!=les_miserables", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "back_to_the_future", "field": "id", "weight": 0, "mode": "filter", "value": "!=back_to_the_future", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "moulin_rouge", "field": "id", "weight": 0, "mode": "filter", "value": "!=moulin_rouge", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "mj_the_musical", "field": "id", "weight": 0, "mode": "filter", "value": "!=mj_the_musical", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "hamilton", "field": "id", "weight": 0, "mode": "filter", "value": "!=hamilton", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "wicked", "field": "id", "weight": 0, "mode": "filter", "value": "!=wicked", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "mamma_mia", "field": "id", "weight": 0, "mode": "filter", "value": "!=mamma_mia", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "devil_wears_prada", "field": "id", "weight": 0, "mode": "filter", "value": "!=devil_wears_prada", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "cabaret", "field": "id", "weight": 0, "mode": "filter", "value": "!=cabaret", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "six", "field": "id", "weight": 0, "mode": "filter", "value": "!=six", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "matilda", "field": "id", "weight": 0, "mode": "filter", "value": "!=matilda", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "book_of_mormon", "field": "id", "weight": 0, "mode": "filter", "value": "!=book_of_mormon", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "phantom_of_the_opera", "field": "id", "weight": 0, "mode": "filter", "value": "!=phantom_of_the_opera", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "hadestown", "field": "id", "weight": 0, "mode": "filter", "value": "!=hadestown", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "oliver", "field": "id", "weight": 0, "mode": "filter", "value": "!=oliver", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "operation_mincemeat", "field": "id", "weight": 0, "mode": "filter", "value": "!=operation_mincemeat", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "titanique", "field": "id", "weight": 0, "mode": "filter", "value": "!=titanique", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "starlight_express", "field": "id", "weight": 0, "mode": "filter", "value": "!=starlight_express", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "hercules", "field": "id", "weight": 0, "mode": "filter", "value": "!=hercules", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "paddington", "field": "id", "weight": 0, "mode": "filter", "value": "!=paddington", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "the_producers", "field": "id", "weight": 0, "mode": "filter", "value": "!=the_producers", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "just_for_one_day", "field": "id", "weight": 0, "mode": "filter", "value": "!=just_for_one_day", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "into_the_woods", "field": "id", "weight": 0, "mode": "filter", "value": "!=into_the_woods", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "kinky_boots", "field": "id", "weight": 0, "mode": "filter", "value": "!=kinky_boots", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "avenue_q", "field": "id", "weight": 0, "mode": "filter", "value": "!=avenue_q", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "im_every_woman_chaka_khan", "field": "id", "weight": 0, "mode": "filter", "value": "!=im_every_woman_chaka_khan", "reason_snippet": null },
+  { "question_id": "q11_seen_before", "answer_id": "the_choir_of_man", "field": "id", "weight": 0, "mode": "filter", "value": "!=the_choir_of_man", "reason_snippet": null }
+]
+
 ]
