@@ -100,20 +100,41 @@
     ]
   },
   {
-    "question_id": "q11_seen_before",
-    "question_text": "Which of these musicals have you already seen and loved?",
-    "type": "multi",
-    "is_hard_filter": true,
-    "max_selections": 8,
-    "answers": [
-      { "answer_id": "wicked", "answer_text": "Wicked" },
-      { "answer_id": "hamilton", "answer_text": "Hamilton" },
-      { "answer_id": "moulin_rouge", "answer_text": "Moulin Rouge!" },
-      { "answer_id": "lion_king", "answer_text": "The Lion King" },
-      { "answer_id": "back_to_the_future", "answer_text": "Back to the Future" },
-      { "answer_id": "phantom_of_the_opera", "answer_text": "The Phantom of the Opera" },
-      { "answer_id": "matilda", "answer_text": "Matilda" },
-      { "answer_id": "book_of_mormon", "answer_text": "The Book of Mormon" }
-    ]
-  }
+  "question_id": "q11_seen_before",
+  "question_text": "Which of these musicals have you already seen and loved?",
+  "type": "multi",
+  "is_hard_filter": true,
+  "max_selections": 8,
+  "answers": [
+    { "answer_id": "lion_king", "answer_text": "The Lion King" },
+    { "answer_id": "les_miserables", "answer_text": "Les Misérables" },
+    { "answer_id": "back_to_the_future", "answer_text": "Back to the Future: The Musical" },
+    { "answer_id": "moulin_rouge", "answer_text": "Moulin Rouge! The Musical" },
+    { "answer_id": "mj_the_musical", "answer_text": "MJ the Musical" },
+    { "answer_id": "hamilton", "answer_text": "Hamilton" },
+    { "answer_id": "wicked", "answer_text": "Wicked" },
+    { "answer_id": "mamma_mia", "answer_text": "Mamma Mia!" },
+    { "answer_id": "devil_wears_prada", "answer_text": "The Devil Wears Prada" },
+    { "answer_id": "cabaret", "answer_text": "Cabaret" },
+    { "answer_id": "six", "answer_text": "SIX" },
+    { "answer_id": "matilda", "answer_text": "Matilda The Musical" },
+    { "answer_id": "book_of_mormon", "answer_text": "The Book of Mormon" },
+    { "answer_id": "phantom_of_the_opera", "answer_text": "The Phantom of the Opera" },
+    { "answer_id": "hadestown", "answer_text": "Hadestown" },
+    { "answer_id": "oliver", "answer_text": "Oliver!" },
+    { "answer_id": "operation_mincemeat", "answer_text": "Operation Mincemeat" },
+    { "answer_id": "titanique", "answer_text": "Titanique" },
+    { "answer_id": "starlight_express", "answer_text": "Starlight Express" },
+    { "answer_id": "hercules", "answer_text": "Hercules" },
+    { "answer_id": "paddington", "answer_text": "Paddington" },
+    { "answer_id": "the_producers", "answer_text": "The Producers" },
+    { "answer_id": "just_for_one_day", "answer_text": "Just For One Day" },
+    { "answer_id": "into_the_woods", "answer_text": "Into the Woods" },
+    { "answer_id": "kinky_boots", "answer_text": "Kinky Boots" },
+    { "answer_id": "avenue_q", "answer_text": "Avenue Q" },
+    { "answer_id": "im_every_woman_chaka_khan", "answer_text": "I'm Every Woman: The Chaka Khan Musical" },
+    { "answer_id": "the_choir_of_man", "answer_text": "The Choir of Man" }
+  ]
+}
+
 ]
