@@ -63,6 +63,19 @@ def compute_status(start, close, today):
         return "inactive"
     return "active"
 
+def is_visible_on_app(obj) -> bool:
+    """
+    Only include rows with visible_on_app == 1.
+    Missing/blank defaults to NOT visible (safer).
+    """
+    v = obj.get("visible_on_app", 0)
+
+    # normalize_cell may return int 1 or string "1"
+    if isinstance(v, str):
+        v = v.strip()
+
+    return (v == 1) or (v == "1")
+
 def main():
     sheet_csv_url = os.environ.get("SHEET_CSV_URL")
     out_path = os.environ.get("OUT_PATH", "musicals.json")
@@ -81,9 +94,11 @@ def main():
     seen_ids = set()
 
     for row in reader:
+        # Skip fully empty rows
         if not any((v or "").strip() for v in row.values()):
             continue
 
+        # 1) Build object from ALL columns
         obj = {}
         for raw_k, raw_v in row.items():
             key = canonical_key(raw_k)
@@ -91,6 +106,11 @@ def main():
                 continue
             obj[key] = normalize_cell(raw_v)
 
+        # 2) Enforce visible_on_app AFTER obj is populated
+        if not is_visible_on_app(obj):
+            continue
+
+        # 3) Required field: id
         show_id = obj.get("id")
         if isinstance(show_id, str):
             show_id = show_id.strip()
@@ -104,7 +124,7 @@ def main():
             continue
         seen_ids.add(show_id)
 
-        # Dates + status
+        # 4) Dates + status
         start = parse_date(str(obj.get("start_date") or ""))
         close_raw = str(obj.get("close_date") or "").strip()
 
@@ -112,7 +132,7 @@ def main():
         if close_raw and close_raw not in OPEN_ENDED_PLACEHOLDERS and close_raw.lower() != "none":
             close = parse_date(close_raw)
 
-        # Keep dates as strings
+        # Keep dates as strings in output
         obj["start_date"] = start.isoformat() if start else (obj.get("start_date") or "")
         obj["close_date"] = close_raw if close_raw else (obj.get("close_date") or "")
 
