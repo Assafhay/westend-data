@@ -1,4 +1,3 @@
-
 {
   "version": 2,
   "scoring": {
@@ -128,59 +127,106 @@
   "ranking_question": {
     "question_id": "q_priority_rank",
     "helper_text": "Rank the following from most important to least important",
-    "weight_curve": {
-      "type": "linear_desc",
-      "top_weight": 7,
-      "bottom_weight": 1
-    },
-    "items": {
-      "easy_english": {
+    "weight_curve": [7, 6, 5, 4, 3, 2, 1],
+    "items": [
+      {
+        "item_id": "easy_english",
         "label": "Easy English",
         "match": [
-          { "field": "english_score", "direction": "lower_better", "scale": "0_3" },
-          { "field": "dialogue_level", "direction": "lower_better", "scale": "0_3" }
+          {
+            "field": "english_score",
+            "weight": -1,
+            "reason_snippet": "Easier English"
+          },
+          {
+            "field": "dialogue_level",
+            "weight": -1,
+            "reason_snippet": "Less dialogue-heavy"
+          }
         ]
       },
-      "strong_story": {
+      {
+        "item_id": "strong_story",
         "label": "Strong story",
         "match": [
-          { "field": "dialogue_level", "direction": "higher_better", "scale": "0_3" },
-          { "field": "romance_score", "direction": "higher_better", "scale": "0_3" }
+          {
+            "field": "dialogue_level",
+            "weight": 1,
+            "reason_snippet": "Story-forward / text-driven"
+          },
+          {
+            "field": "romance_score",
+            "weight": 1,
+            "reason_snippet": "Emotional story"
+          }
         ]
       },
-      "funny": {
+      {
+        "item_id": "funny",
         "label": "Funny / laugh-out-loud",
         "match": [
-          { "field": "comedy_score", "direction": "higher_better", "scale": "0_3" }
+          {
+            "field": "comedy_score",
+            "weight": 1,
+            "reason_snippet": "Very funny"
+          }
         ]
       },
-      "grand_spectacle": {
+      {
+        "item_id": "grand_spectacle",
         "label": "Grand spectacle / Visually impressive",
         "match": [
-          { "field": "spectacle_level", "direction": "higher_better", "scale": "0_3" }
+          {
+            "field": "spectacle_level",
+            "weight": 1,
+            "reason_snippet": "Big visual wow factor"
+          }
         ]
       },
-      "songs_i_know": {
+      {
+        "item_id": "songs_i_know",
         "label": "Songs I know (jukebox)",
         "match": [
-          { "field": "jukebox", "direction": "prefer_1" },
-          { "field": "music_familiarity", "direction": "higher_better", "scale": "0_3" }
+          {
+            "field": "jukebox",
+            "weight": 2,
+            "reason_snippet": "Jukebox / famous songs"
+          },
+          {
+            "field": "music_familiarity",
+            "weight": 1,
+            "reason_snippet": "Familiar music"
+          }
         ]
       },
-      "not_too_long": {
+      {
+        "item_id": "not_too_long",
         "label": "Not too long",
         "match": [
-          { "field": "duration_minutes", "direction": "lower_better", "curve": "soft" }
+          {
+            "field": "duration_minutes",
+            "weight": -0.02,
+            "reason_snippet": "Shorter runtime"
+          }
         ]
       },
-      "hidden_gem": {
+      {
+        "item_id": "hidden_gem",
         "label": "Hidden gem, something special",
         "match": [
-          { "field": "hidden_gem", "direction": "prefer_1" },
-          { "field": "off_westend", "direction": "prefer_1" }
+          {
+            "field": "hidden_gem",
+            "weight": 2,
+            "reason_snippet": "Hidden gem"
+          },
+          {
+            "field": "off_westend",
+            "weight": 1,
+            "reason_snippet": "Off West End"
+          }
         ]
       }
-    }
+    ]
   },
   "seen_before": {
     "question_id": "q11_seen_before",
