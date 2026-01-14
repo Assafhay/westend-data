@@ -135,14 +135,14 @@
 "match": [
     {
       "field": "english_score",
-      "weight": 1,  // ✅ Changed from -1 to +1
-      "invert": true,  // 🆕 NEW FLAG
+      "weight": 1,  
+      "invert": true,  
       "reason_snippet": "Easier English"
     },
     {
       "field": "dialogue_level",
-      "weight": 1,  // ✅ Changed from -1 to +1
-      "invert": true,  // 🆕 NEW FLAG
+      "weight": 1,  
+      "invert": true,  
       "reason_snippet": "Less dialogue-heavy"
     }
   ]
