@@ -1,0 +1,221 @@
+
+{
+  "version": 2,
+  "scoring": {
+    "ranking_multiplier": 3.0,
+    "base_multiplier": 1.0,
+    "seen_taste_bonus_multiplier": 1.0
+  },
+  "rules": [
+    {
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
+      "field": "family_score",
+      "weight": 0,
+      "mode": "filter",
+      "value": ">=3",
+      "reason_snippet": "Suitable for kids"
+    },
+    {
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
+      "field": "darkness_level",
+      "weight": -3,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "Avoid dark themes for kids"
+    },
+    {
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
+      "field": "comedy_score",
+      "weight": 2,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "Funny for families"
+    },
+    {
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
+      "field": "spectacle_level",
+      "weight": 2,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "Visual and engaging for kids"
+    },
+    {
+      "question_id": "q1_group",
+      "answer_id": "adults",
+      "field": "family_score",
+      "weight": -1,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "Less focus on very family-oriented shows"
+    },
+    {
+      "question_id": "q1_group",
+      "answer_id": "adults_and_teens",
+      "field": "family_score",
+      "weight": -1,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "Slightly downrank very family/kid-focused shows"
+    },
+    {
+      "question_id": "q9_experience",
+      "answer_id": "first_time",
+      "field": "beginner_friendly",
+      "weight": 4,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "Easy to enjoy for first-timers"
+    },
+    {
+      "question_id": "q9_experience",
+      "answer_id": "first_time",
+      "field": "classic",
+      "weight": 1,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "Great first musical experience"
+    },
+    {
+      "question_id": "q9_experience",
+      "answer_id": "a_few",
+      "field": "classic",
+      "weight": 1,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "A strong classic can be perfect"
+    },
+    {
+      "question_id": "q9_experience",
+      "answer_id": "many",
+      "field": "hidden_gem",
+      "weight": 2,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "You’ll enjoy something new and different"
+    },
+    {
+      "question_id": "q9_experience",
+      "answer_id": "many",
+      "field": "classic",
+      "weight": -1,
+      "mode": "score",
+      "value": null,
+      "reason_snippet": "You’ve probably seen big classics"
+    },
+    {
+      "question_id": "q10_dates",
+      "answer_id": "specific_dates",
+      "field": "start_date",
+      "weight": 0,
+      "mode": "filter",
+      "value": "<=user_end_date",
+      "reason_snippet": "Show starts on or before end of visit"
+    },
+    {
+      "question_id": "q10_dates",
+      "answer_id": "specific_dates",
+      "field": "close_date",
+      "weight": 0,
+      "mode": "filter",
+      "value": ">=user_start_date",
+      "reason_snippet": "Show is still running during visit"
+    }
+  ],
+  "ranking_question": {
+    "question_id": "q_priority_rank",
+    "helper_text": "Rank the following from most important to least important",
+    "weight_curve": {
+      "type": "linear_desc",
+      "top_weight": 7,
+      "bottom_weight": 1
+    },
+    "items": {
+      "easy_english": {
+        "label": "Easy English",
+        "match": [
+          { "field": "english_score", "direction": "lower_better", "scale": "0_3" },
+          { "field": "dialogue_level", "direction": "lower_better", "scale": "0_3" }
+        ]
+      },
+      "strong_story": {
+        "label": "Strong story",
+        "match": [
+          { "field": "dialogue_level", "direction": "higher_better", "scale": "0_3" },
+          { "field": "romance_score", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "funny": {
+        "label": "Funny / laugh-out-loud",
+        "match": [
+          { "field": "comedy_score", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "grand_spectacle": {
+        "label": "Grand spectacle / Visually impressive",
+        "match": [
+          { "field": "spectacle_level", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "songs_i_know": {
+        "label": "Songs I know (jukebox)",
+        "match": [
+          { "field": "jukebox", "direction": "prefer_1" },
+          { "field": "music_familiarity", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "not_too_long": {
+        "label": "Not too long",
+        "match": [
+          { "field": "duration_minutes", "direction": "lower_better", "curve": "soft" }
+        ]
+      },
+      "hidden_gem": {
+        "label": "Hidden gem, something special",
+        "match": [
+          { "field": "hidden_gem", "direction": "prefer_1" },
+          { "field": "off_westend", "direction": "prefer_1" }
+        ]
+      }
+    }
+  },
+  "seen_before": {
+    "question_id": "q11_seen_before",
+    "exclude_seen": true,
+    "taste_profile": {
+      "enabled": true,
+      "numeric_fields": [
+        "comedy_score",
+        "romance_score",
+        "family_score",
+        "spectacle_level",
+        "dialogue_level",
+        "darkness_level",
+        "english_score",
+        "music_familiarity"
+      ],
+      "binary_fields": [
+        "jukebox",
+        "classic",
+        "based_on_movie",
+        "high_energy",
+        "hidden_gem",
+        "off_westend",
+        "must_see"
+      ],
+      "bonus": {
+        "max_points": 8,
+        "numeric_similarity": {
+          "type": "abs_diff",
+          "scale_max": 3
+        },
+        "binary_similarity": {
+          "type": "match_or_soft"
+        }
+      }
+    }
+  }
+}
