@@ -1,1201 +1,220 @@
-[
-  {
-    "question_id": "q1_group",
-    "answer_id": "family_kids",
-    "field": "family_score",
-    "weight": 0,
-    "mode": "filter",
-    "value": ">=3",
-    "reason_snippet": "Suitable for kids"
-  },
-  {
-    "question_id": "q1_group",
-    "answer_id": "family_kids",
-    "field": "darkness_level",
-    "weight": -3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Avoid dark themes for kids"
-  },
-  {
-    "question_id": "q1_group",
-    "answer_id": "family_kids",
-    "field": "comedy_score",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Funny for families"
-  },
-  {
-    "question_id": "q1_group",
-    "answer_id": "family_kids",
-    "field": "spectacle_level",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Visual and engaging for kids"
-  },
-  {
-    "question_id": "q1_group",
-    "answer_id": "adults",
-    "field": "family_score",
-    "weight": -1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Less focus on very family-oriented shows"
-  },
-  {
-    "question_id": "q1_group",
-    "answer_id": "adults_and_teens",
-    "field": "family_score",
-    "weight": -1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "A show that fits both adults and teens"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "ok_but_not_perfect",
-    "field": "english_score",
-    "weight": -1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer easier English"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "ok_but_not_perfect",
-    "field": "beginner_friendly",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Great for beginners and non-English speakers"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "ok_but_not_perfect",
-    "field": "dialogue_level",
-    "weight": -1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Less dialogue-heavy"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "basic",
-    "field": "english_score",
-    "weight": 0,
-    "mode": "filter",
-    "value": "<=2",
-    "reason_snippet": "Easier English"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "basic",
-    "field": "dialogue_level",
-    "weight": 0,
-    "mode": "filter",
-    "value": "<=2",
-    "reason_snippet": "Not text-heavy"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "basic",
-    "field": "beginner_friendly",
-    "weight": 3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Very easy to follow"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "basic",
-    "field": "spectacle_level",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Visual storytelling helps"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "basic",
-    "field": "music_familiarity",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Familiar music makes it easier to follow for non-English speakers"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "basic",
-    "field": "jukebox",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Familiar songs makes it easier to follow for non-English speakers"
-  },
-  {
-    "question_id": "q2_english",
-    "answer_id": "basic",
-    "field": "based_on_movie",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Familiar story makes it easier to follow for non-English speakers"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "laugh",
-    "field": "comedy_score",
-    "weight": 3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Very funny"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "laugh",
-    "field": "darkness_level",
-    "weight": -3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer light-hearted tone"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "feel_good",
-    "field": "darkness_level",
-    "weight": -2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "More uplifting mood"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "feel_good",
-    "field": "music_familiarity",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Easy, enjoyable music"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "feel_good",
-    "field": "beginner_friendly",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Easy to enjoy"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "epic_emotional",
-    "field": "romance_score",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Emotional story"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "epic_emotional",
-    "field": "spectacle_level",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Epic staging"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "dark_intense",
-    "field": "darkness_level",
-    "weight": 3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Dark, serious themes"
-  },
-  {
-    "question_id": "q3_mood",
-    "answer_id": "dark_intense",
-    "field": "comedy_score",
-    "weight": -2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Not comedy-focused"
-  },
-  {
-    "question_id": "q4_focus",
-    "answer_id": "big_spectacle",
-    "field": "spectacle_level",
-    "weight": 3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Visual wow factor"
-  },
-  {
-    "question_id": "q4_focus",
-    "answer_id": "big_spectacle",
-    "field": "high_energy",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Dynamic production"
-  },
-  {
-    "question_id": "q4_focus",
-    "answer_id": "strong_story",
-    "field": "dialogue_level",
-    "weight": 3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Story-focused"
-  },
-  {
-    "question_id": "q4_focus",
-    "answer_id": "strong_story",
-    "field": "romance_score",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Character relationships"
-  },
-  {
-    "question_id": "q5_music",
-    "answer_id": "famous_songs",
-    "field": "jukebox",
-    "weight": 5,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Well-known music"
-  },
-  {
-    "question_id": "q5_music",
-    "answer_id": "famous_songs",
-    "field": "music_familiarity",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Well-known music"
-  },
-  {
-    "question_id": "q5_music",
-    "answer_id": "original_music",
-    "field": "jukebox",
-    "weight": -5,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer original score"
-  },
-  {
-    "question_id": "q5_music",
-    "answer_id": "original_music",
-    "field": "music_familiarity",
-    "weight": -1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Less important to have familiar songs"
-  },
-  {
-    "question_id": "q7_length",
-    "answer_id": "short",
-    "field": "duration_minutes",
-    "weight": 0,
-    "mode": "filter",
-    "value": "<=140",
-    "reason_snippet": "Not too long"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "classic",
-    "field": "classic",
-    "weight": 4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer classic musicals"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "classic",
-    "field": "hidden_gem",
-    "weight": -4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Not looking for hidden gems"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "must_see",
-    "field": "must_see",
-    "weight": 4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Looking for a big must-see show"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "must_see",
-    "field": "fan_favourite",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Fan-favourite musical"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "must_see",
-    "field": "classic",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "One of the shows you must see when in London"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "hidden_gem",
-    "field": "hidden_gem",
-    "weight": 4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer something different"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "hidden_gem",
-    "field": "classic",
-    "weight": -4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Since you don't want the obvious tourist classics"
-  },
-  {
-    "question_id": "q9_experience",
-    "answer_id": "first_time",
-    "field": "classic",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Great first musical experience"
-  },
-  {
-    "question_id": "q9_experience",
-    "answer_id": "first_time",
-    "field": "beginner_friendly",
-    "weight": 5,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Easy to enjoy for first-timers"
-  },
-  {
-    "question_id": "q9_experience",
-    "answer_id": "a_few",
-    "field": "classic",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "A strong classic can be perfect"
-  },
-  {
-    "question_id": "q9_experience",
-    "answer_id": "many",
-    "field": "hidden_gem",
-    "weight": 3,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "You’ll enjoy something new and different"
-  },
-  {
-    "question_id": "q9_experience",
-    "answer_id": "many",
-    "field": "classic",
-    "weight": -1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "You’ve probably seen big classics"
-  },
-  {
-    "question_id": "q9_experience",
-    "answer_id": "many",
-    "field": "jukebox",
-    "weight": -1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer more original and creative shows"
-  },
-  {
-    "question_id": "q10_dates",
-    "answer_id": "specific_dates",
-    "field": "start_date",
-    "weight": 0,
-    "mode": "filter",
-    "value": "<=user_end_date",
-    "reason_snippet": "Show starts on or before end of visit"
-  },
-  {
-    "question_id": "q10_dates",
-    "answer_id": "specific_dates",
-    "field": "close_date",
-    "weight": 0,
-    "mode": "filter",
-    "value": ">=user_start_date",
-    "reason_snippet": "Show is still running during visit"
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "lion_king",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=lion_king",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "les_miserables",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=les_miserables",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "back_to_the_future",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=back_to_the_future",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "moulin_rouge",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=moulin_rouge",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "mj_the_musical",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=mj_the_musical",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "hamilton",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=hamilton",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "wicked",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=wicked",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "mamma_mia",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=mamma_mia",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "devil_wears_prada",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=devil_wears_prada",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "cabaret",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=cabaret",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "six",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=six",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "matilda",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=matilda",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "book_of_mormon",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=book_of_mormon",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "phantom_of_the_opera",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=phantom_of_the_opera",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "hadestown",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=hadestown",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "oliver",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=oliver",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "operation_mincemeat",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=operation_mincemeat",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "titanique",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=titanique",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "starlight_express",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=starlight_express",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "hercules",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=hercules",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "paddington",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=paddington",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "the_producers",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=the_producers",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "just_for_one_day",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=just_for_one_day",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "into_the_woods",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=into_the_woods",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "kinky_boots",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=kinky_boots",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "avenue_q",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=avenue_q",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "im_every_woman_chaka_khan",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=im_every_woman_chaka_khan",
-    "reason_snippet": null
-  },
-  {
-    "question_id": "q11_seen_before",
-    "answer_id": "the_choir_of_man",
-    "field": "id",
-    "weight": 0,
-    "mode": "filter",
-    "value": "!=the_choir_of_man",
-    "reason_snippet": null
-  },
-  [
+{
+  "version": 2,
+  "scoring": {
+    "ranking_multiplier": 3.0,
+    "base_multiplier": 1.0,
+    "seen_taste_bonus_multiplier": 1.0
+  },
+  "rules": [
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "lion_king",
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
       "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Lion King, you like family‑friendly theatre that's easy to enjoy together"
+      "weight": 0,
+      "mode": "filter",
+      "value": ">=3",
+      "reason_snippet": "Suitable for kids"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "lion_king",
-      "field": "spectacle_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Lion King, you appreciate big, visually impressive productions"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "les_miserables",
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
       "field": "darkness_level",
-      "weight": 1,
+      "weight": -3,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed Les Misérables, you’re open to heavier, more serious stories"
+      "reason_snippet": "Avoid dark themes for kids"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "les_miserables",
-      "field": "english_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Les Misérables, you don’t mind more challenging English and story-driven shows"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "back_to_the_future",
-      "field": "spectacle_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Back to the Future, you like fun, high‑impact staging and big theatrical moments"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "back_to_the_future",
-      "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Back to the Future, you enjoy crowd‑pleasing shows that work well for a broad audience"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "moulin_rouge",
-      "field": "spectacle_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Moulin Rouge! The Musical, you like big, showy productions with lots of visual wow"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "moulin_rouge",
-      "field": "jukebox",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Moulin Rouge! The Musical, you might enjoy shows with famous songs (jukebox-style music)"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "mj_the_musical",
-      "field": "music_familiarity",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed MJ the Musical, you like familiar songs and a concert‑style vibe"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "mj_the_musical",
-      "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed MJ the Musical, you enjoy accessible, crowd‑pleasing shows"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "hamilton",
-      "field": "english_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Hamilton, you’re comfortable with fast-paced, language-heavy storytelling"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "hamilton",
-      "field": "dialogue_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Hamilton, you like story-driven shows with lots of lyrics and dialogue"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "wicked",
-      "field": "spectacle_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Wicked, you like visually impressive shows with big theatrical moments"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "wicked",
-      "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Wicked, you enjoy big crowd‑pleasers that work well for many audiences"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "mamma_mia",
-      "field": "music_familiarity",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Mamma Mia!, you love shows built around familiar songs and a feel‑good atmosphere"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "mamma_mia",
-      "field": "romance_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Mamma Mia!, you enjoy light, romantic, upbeat stories"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "devil_wears_prada",
-      "field": "romance_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Devil Wears Prada, you enjoy modern, feel‑good shows with relationships and drama"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "devil_wears_prada",
-      "field": "beginner_friendly",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Devil Wears Prada, you like easy-to-follow shows that are fun right away"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "cabaret",
-      "field": "darkness_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Cabaret, you’re comfortable with darker, more mature themes"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "cabaret",
-      "field": "english_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Cabaret, you don’t mind shows that are more dialogue- and story-heavy"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "six",
-      "field": "high_energy",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed SIX, you like high-energy, concert-style shows"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "six",
-      "field": "duration_minutes",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed SIX, you might prefer shorter shows that keep things punchy and fast"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "matilda",
-      "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Matilda The Musical, you like shows that work well for families"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "matilda",
-      "field": "beginner_friendly",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Matilda The Musical, you enjoy accessible shows that are easy to follow"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "book_of_mormon",
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
       "field": "comedy_score",
-      "weight": 1,
+      "weight": 2,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed The Book of Mormon, you love bold, laugh‑out‑loud comedy"
+      "reason_snippet": "Funny for families"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "book_of_mormon",
-      "field": "high_energy",
-      "weight": 1,
+      "question_id": "q1_group",
+      "answer_id": "family_kids",
+      "field": "spectacle_level",
+      "weight": 2,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed The Book of Mormon, you like fast-paced shows with lots of momentum"
+      "reason_snippet": "Visual and engaging for kids"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "phantom_of_the_opera",
-      "field": "romance_score",
-      "weight": 1,
+      "question_id": "q1_group",
+      "answer_id": "adults",
+      "field": "family_score",
+      "weight": -1,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed The Phantom of the Opera, you’re drawn to dramatic romance"
+      "reason_snippet": "Less focus on very family-oriented shows"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "phantom_of_the_opera",
-      "field": "darkness_level",
-      "weight": 1,
+      "question_id": "q1_group",
+      "answer_id": "adults_and_teens",
+      "field": "family_score",
+      "weight": -1,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed The Phantom of the Opera, you’re comfortable with darker, gothic stories"
+      "reason_snippet": "Slightly downrank very family/kid-focused shows"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "hadestown",
-      "field": "romance_score",
-      "weight": 1,
+      "question_id": "q9_experience",
+      "answer_id": "first_time",
+      "field": "beginner_friendly",
+      "weight": 4,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed Hadestown, you like emotional love stories with a more serious tone"
+      "reason_snippet": "Easy to enjoy for first-timers"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "hadestown",
-      "field": "english_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Hadestown, you’re comfortable with poetic, story-led shows"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "oliver",
+      "question_id": "q9_experience",
+      "answer_id": "first_time",
       "field": "classic",
       "weight": 1,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed Oliver!, you like classic, iconic musicals"
+      "reason_snippet": "Great first musical experience"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "oliver",
-      "field": "spectacle_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Oliver!, you appreciate big ensemble moments and grand staging"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "operation_mincemeat",
-      "field": "comedy_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Operation Mincemeat, you like clever, very funny comedy"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "operation_mincemeat",
-      "field": "english_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Operation Mincemeat, you don’t mind wordy, fast-paced British humor"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "titanique",
-      "field": "comedy_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Titanique, you like silly, campy comedy and parody"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "titanique",
-      "field": "music_familiarity",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Titanique, you enjoy shows with familiar pop songs (jukebox-style)"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "starlight_express",
-      "field": "spectacle_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Starlight Express, you like big, visual spectacle and unique staging"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "starlight_express",
-      "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Starlight Express, you enjoy family-friendly shows that are fun for all ages"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "hercules",
-      "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Hercules, you like family-friendly, feel-good theatre"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "hercules",
-      "field": "romance_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Hercules, you enjoy warm, romantic storylines in a fun package"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "paddington",
-      "field": "family_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Paddington, you like wholesome, family-friendly shows"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "paddington",
-      "field": "beginner_friendly",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Paddington, you prefer easy-to-follow shows that are simple to enjoy"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "the_producers",
-      "field": "comedy_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Producers, you love big, bold comedy"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "the_producers",
-      "field": "spectacle_level",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Producers, you enjoy classic, high-energy productions with big stage moments"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "just_for_one_day",
-      "field": "music_familiarity",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Just For One Day, you like familiar songs and music‑celebration shows"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "just_for_one_day",
-      "field": "jukebox",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Just For One Day, you might enjoy jukebox or concert‑style musicals with big anthems"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "into_the_woods",
-      "field": "english_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Into the Woods, you’re comfortable with clever, story-heavy shows"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "into_the_woods",
+      "question_id": "q9_experience",
+      "answer_id": "a_few",
       "field": "classic",
       "weight": 1,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed Into the Woods, you like classic musicals with a smart twist"
+      "reason_snippet": "A strong classic can be perfect"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "kinky_boots",
-      "field": "comedy_score",
-      "weight": 1,
+      "question_id": "q9_experience",
+      "answer_id": "many",
+      "field": "hidden_gem",
+      "weight": 2,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed Kinky Boots, you like feel-good comedy with a big, fun energy"
+      "reason_snippet": "You’ll enjoy something new and different"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "kinky_boots",
-      "field": "spectacle_level",
-      "weight": 1,
+      "question_id": "q9_experience",
+      "answer_id": "many",
+      "field": "classic",
+      "weight": -1,
       "mode": "score",
       "value": null,
-      "reason_snippet": "Since you enjoyed Kinky Boots, you enjoy bold, high-energy productions with big stage moments"
+      "reason_snippet": "You’ve probably seen big classics"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "avenue_q",
-      "field": "comedy_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Avenue Q, you like edgy, adult comedy"
+      "question_id": "q10_dates",
+      "answer_id": "specific_dates",
+      "field": "start_date",
+      "weight": 0,
+      "mode": "filter",
+      "value": "<=user_end_date",
+      "reason_snippet": "Show starts on or before end of visit"
     },
     {
-      "question_id": "q11_seen_before",
-      "answer_id": "avenue_q",
-      "field": "english_score",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed Avenue Q, you’re comfortable with more language-driven humor and satire"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "im_every_woman_chaka_khan",
-      "field": "music_familiarity",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed I'm Every Woman: The Chaka Khan Musical, you like shows with famous songs and a concert vibe"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "im_every_woman_chaka_khan",
-      "field": "jukebox",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed I'm Every Woman: The Chaka Khan Musical, you might enjoy jukebox-style musicals"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "the_choir_of_man",
-      "field": "music_familiarity",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Choir of Man, you like feel-good shows with familiar songs and a relaxed vibe"
-    },
-    {
-      "question_id": "q11_seen_before",
-      "answer_id": "the_choir_of_man",
-      "field": "jukebox",
-      "weight": 1,
-      "mode": "score",
-      "value": null,
-      "reason_snippet": "Since you enjoyed The Choir of Man, you might enjoy concert-style, jukebox-adjacent experiences"
+      "question_id": "q10_dates",
+      "answer_id": "specific_dates",
+      "field": "close_date",
+      "weight": 0,
+      "mode": "filter",
+      "value": ">=user_start_date",
+      "reason_snippet": "Show is still running during visit"
     }
-  ]
-]
+  ],
+  "ranking_question": {
+    "question_id": "q_priority_rank",
+    "helper_text": "Rank the following from most important to least important",
+    "weight_curve": {
+      "type": "linear_desc",
+      "top_weight": 7,
+      "bottom_weight": 1
+    },
+    "items": {
+      "easy_english": {
+        "label": "Easy English",
+        "match": [
+          { "field": "english_score", "direction": "lower_better", "scale": "0_3" },
+          { "field": "dialogue_level", "direction": "lower_better", "scale": "0_3" }
+        ]
+      },
+      "strong_story": {
+        "label": "Strong story",
+        "match": [
+          { "field": "dialogue_level", "direction": "higher_better", "scale": "0_3" },
+          { "field": "romance_score", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "funny": {
+        "label": "Funny / laugh-out-loud",
+        "match": [
+          { "field": "comedy_score", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "grand_spectacle": {
+        "label": "Grand spectacle / Visually impressive",
+        "match": [
+          { "field": "spectacle_level", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "songs_i_know": {
+        "label": "Songs I know (jukebox)",
+        "match": [
+          { "field": "jukebox", "direction": "prefer_1" },
+          { "field": "music_familiarity", "direction": "higher_better", "scale": "0_3" }
+        ]
+      },
+      "not_too_long": {
+        "label": "Not too long",
+        "match": [
+          { "field": "duration_minutes", "direction": "lower_better", "curve": "soft" }
+        ]
+      },
+      "hidden_gem": {
+        "label": "Hidden gem, something special",
+        "match": [
+          { "field": "hidden_gem", "direction": "prefer_1" },
+          { "field": "off_westend", "direction": "prefer_1" }
+        ]
+      }
+    }
+  },
+  "seen_before": {
+    "question_id": "q11_seen_before",
+    "exclude_seen": true,
+    "taste_profile": {
+      "enabled": true,
+      "numeric_fields": [
+        "comedy_score",
+        "romance_score",
+        "family_score",
+        "spectacle_level",
+        "dialogue_level",
+        "darkness_level",
+        "english_score",
+        "music_familiarity"
+      ],
+      "binary_fields": [
+        "jukebox",
+        "classic",
+        "based_on_movie",
+        "high_energy",
+        "hidden_gem",
+        "off_westend",
+        "must_see"
+      ],
+      "bonus": {
+        "max_points": 8,
+        "numeric_similarity": {
+          "type": "abs_diff",
+          "scale_max": 3
+        },
+        "binary_similarity": {
+          "type": "match_or_soft"
+        }
+      }
+    }
+  }
+}

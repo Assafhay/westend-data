@@ -1,140 +1,59 @@
-[
-  {
-    "question_id": "q1_group",
-    "question_text": "Who are you going with?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "adults", "answer_text": "Adults Only" },
-      { "answer_id": "adults_and_teens", "answer_text": "Adults and Teens" },
-      { "answer_id": "family_kids", "answer_text": "Family with kids" }
-    ]
-  },
-  {
-    "question_id": "q2_english",
-    "question_text": "How comfortable are you with English?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "native_or_fluent", "answer_text": "Very comfortable / fluent" },
-      { "answer_id": "ok_but_not_perfect", "answer_text": "OK but not perfect" },
-      { "answer_id": "basic", "answer_text": "Basic English" }
-    ]
-  },
-  {
-    "question_id": "q3_mood",
-    "question_text": "What are you in the mood for? (You can choose up to 2)",
-    "type": "multi",
-    "is_hard_filter": false,
-    "max_selections": 2,
-    "answers": [
-      { "answer_id": "laugh", "answer_text": "I want to laugh" },
-      { "answer_id": "feel_good", "answer_text": "Feel-good and uplifting" },
-      { "answer_id": "epic_emotional", "answer_text": "See something epic and get emotional" },
-      { "answer_id": "dark_intense", "answer_text": "I'm in the mood for dark or intense" }
-    ]
-  },
-  {
-    "question_id": "q4_focus",
-    "question_text": "What matters to you more?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "big_spectacle", "answer_text": "Big spectacle" },
-      { "answer_id": "strong_story", "answer_text": "Strong story" },
-      { "answer_id": "no_preference", "answer_text": "No preference" }
-    ]
-  },
-  {
-    "question_id": "q5_music",
-    "question_text": "What kind of music do you prefer?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "famous_songs", "answer_text": "Songs I know" },
-      { "answer_id": "original_music", "answer_text": "Original new music" },
-      { "answer_id": "no_preference", "answer_text": "No preference" }
-    ]
-  },
-  {
-    "question_id": "q7_length",
-    "question_text": "How long do you want the show to be?",
-    "type": "single",
-    "is_hard_filter": true,
-    "answers": [
-      { "answer_id": "short", "answer_text": "Not too long" },
-      { "answer_id": "dont_care", "answer_text": "Don't care" }
-    ]
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "question_text": "What kind of musical are you in the mood for?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "classic", "answer_text": "A classic musical" },
-      { "answer_id": "must_see", "answer_text": "A must see, something everyone loves" },
-      { "answer_id": "hidden_gem", "answer_text": "A hidden gem, something different" },
-      { "answer_id": "dont_care", "answer_text": "No preference" }
-    ]
-  },
-  {
-    "question_id": "q9_experience",
-    "question_text": "How many musicals have you seen before?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "first_time", "answer_text": "This is my first musical" },
-      { "answer_id": "a_few", "answer_text": "A few (2–5)" },
-      { "answer_id": "many", "answer_text": "Many (I love musicals)" }
-    ]
-  },
-  {
-    "question_id": "q10_dates",
-    "question_text": "When will you be in London?",
-    "type": "date_range",
-    "is_hard_filter": true,
-    "answers": [
-      { "answer_id": "all_dates", "answer_text": "All dates, I'm flexible" },
-      { "answer_id": "specific_dates", "answer_text": "Specific dates" }
-    ]
-  },
-  {
-  "question_id": "q11_seen_before",
-  "question_text": "Which of these musicals have you already seen and loved?",
-  "type": "multi",
-  "is_hard_filter": true,
-  "max_selections": 8,
-  "answers": [
-    { "answer_id": "lion_king", "answer_text": "The Lion King" },
-    { "answer_id": "les_miserables", "answer_text": "Les Misérables" },
-    { "answer_id": "back_to_the_future", "answer_text": "Back to the Future: The Musical" },
-    { "answer_id": "moulin_rouge", "answer_text": "Moulin Rouge! The Musical" },
-    { "answer_id": "mj_the_musical", "answer_text": "MJ the Musical" },
-    { "answer_id": "hamilton", "answer_text": "Hamilton" },
-    { "answer_id": "wicked", "answer_text": "Wicked" },
-    { "answer_id": "mamma_mia", "answer_text": "Mamma Mia!" },
-    { "answer_id": "devil_wears_prada", "answer_text": "The Devil Wears Prada" },
-    { "answer_id": "cabaret", "answer_text": "Cabaret" },
-    { "answer_id": "six", "answer_text": "SIX" },
-    { "answer_id": "matilda", "answer_text": "Matilda The Musical" },
-    { "answer_id": "book_of_mormon", "answer_text": "The Book of Mormon" },
-    { "answer_id": "phantom_of_the_opera", "answer_text": "The Phantom of the Opera" },
-    { "answer_id": "hadestown", "answer_text": "Hadestown" },
-    { "answer_id": "oliver", "answer_text": "Oliver!" },
-    { "answer_id": "operation_mincemeat", "answer_text": "Operation Mincemeat" },
-    { "answer_id": "titanique", "answer_text": "Titanique" },
-    { "answer_id": "starlight_express", "answer_text": "Starlight Express" },
-    { "answer_id": "hercules", "answer_text": "Hercules" },
-    { "answer_id": "paddington", "answer_text": "Paddington" },
-    { "answer_id": "the_producers", "answer_text": "The Producers" },
-    { "answer_id": "just_for_one_day", "answer_text": "Just For One Day" },
-    { "answer_id": "into_the_woods", "answer_text": "Into the Woods" },
-    { "answer_id": "kinky_boots", "answer_text": "Kinky Boots" },
-    { "answer_id": "avenue_q", "answer_text": "Avenue Q" },
-    { "answer_id": "im_every_woman_chaka_khan", "answer_text": "I'm Every Woman: The Chaka Khan Musical" },
-    { "answer_id": "the_choir_of_man", "answer_text": "The Choir of Man" }
+{
+  "version": 2,
+  "questions": [
+    {
+      "id": "q1_group",
+      "type": "single_choice",
+      "title": "Who are you going with?",
+      "options": [
+        { "id": "family_kids", "label": "Family with kids" },
+        { "id": "adults_and_teens", "label": "Adults & teens" },
+        { "id": "adults", "label": "Adults only" }
+      ]
+    },
+
+    {
+      "id": "q10_dates",
+      "type": "date_range",
+      "title": "When will you be in London?",
+      "helper_text": "So we only recommend shows running while you’re there"
+    },
+
+    {
+      "id": "q9_experience",
+      "type": "single_choice",
+      "title": "How many musicals have you seen before?",
+      "options": [
+        { "id": "first_time", "label": "This will be my first musical" },
+        { "id": "a_few", "label": "I’ve seen a few" },
+        { "id": "many", "label": "I’ve seen many" }
+      ]
+    },
+
+    {
+      "id": "q11_seen_before",
+      "type": "multi_select",
+      "title": "Which of these musicals have you already seen and loved?",
+      "helper_text": "Select all that apply",
+      "dynamic_options": {
+        "source": "shows"
+      }
+    },
+
+    {
+      "id": "q_priority_rank",
+      "type": "ranking",
+      "title": "What matters most to you in a musical?",
+      "helper_text": "Rank the following from most important to least important",
+      "items": [
+        { "id": "easy_english", "label": "Easy English" },
+        { "id": "strong_story", "label": "Strong story" },
+        { "id": "funny", "label": "Funny / laugh-out-loud" },
+        { "id": "grand_spectacle", "label": "Grand spectacle / Visually impressive" },
+        { "id": "songs_i_know", "label": "Songs I know (jukebox)" },
+        { "id": "not_too_long", "label": "Not too long" },
+        { "id": "hidden_gem", "label": "Hidden gem, something special" }
+      ]
+    }
   ]
 }
-
-]
