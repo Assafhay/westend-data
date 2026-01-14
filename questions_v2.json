@@ -1,63 +1,64 @@
-[
-  {
-    "question_id": "q1_group",
-    "question_text": "Who are you going with?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "family_kids", "answer_text": "Family with kids" },
-      { "answer_id": "adults_and_teens", "answer_text": "Adults & teens" },
-      { "answer_id": "adults", "answer_text": "Adults only" }
-    ]
-  },
-  {
-    "question_id": "q10_dates",
-    "question_text": "When will you be in London?",
-    "type": "date_range",
-    "is_hard_filter": true,
-    "answers": [
-      { "answer_id": "all_dates", "answer_text": "All dates, I'm flexible" },
-      { "answer_id": "specific_dates", "answer_text": "Specific dates" }
-    ],
-    "helper_text": "So we only recommend shows running while you’re there"
-  },
-  {
-    "question_id": "q9_experience",
-    "question_text": "How many musicals have you seen before?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "first_time", "answer_text": "This will be my first musical" },
-      { "answer_id": "a_few", "answer_text": "I’ve seen a few" },
-      { "answer_id": "many", "answer_text": "I’ve seen many" }
-    ]
-  },
-  {
-    "question_id": "q11_seen_before",
-    "question_text": "Which of these musicals have you already seen and loved?",
-    "type": "multi",
-    "is_hard_filter": true,
-    "max_selections": 8,
-    "answers": [],
-    "dynamic_options": {
-      "source": "shows"
+{
+  "version": 2,
+  "questions": [
+    {
+      "question_id": "q1_group",
+      "question_text": "Who are you going with?",
+      "type": "single",
+      "is_hard_filter": false,
+      "answers": [
+        { "answer_id": "family_kids", "answer_text": "Family with kids" },
+        { "answer_id": "adults_and_teens", "answer_text": "Adults & teens" },
+        { "answer_id": "adults", "answer_text": "Adults only" }
+      ]
     },
-    "helper_text": "Select all that apply"
-  },
-  {
-    "question_id": "q_priority_rank",
-    "question_text": "What matters most to you in a musical?",
-    "type": "ranking",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "easy_english", "answer_text": "Easy English" },
-      { "answer_id": "strong_story", "answer_text": "Strong story" },
-      { "answer_id": "funny", "answer_text": "Funny / laugh-out-loud" },
-      { "answer_id": "grand_spectacle", "answer_text": "Grand spectacle / Visually impressive" },
-      { "answer_id": "songs_i_know", "answer_text": "Songs I know (jukebox)" },
-      { "answer_id": "not_too_long", "answer_text": "Not too long" },
-      { "answer_id": "hidden_gem", "answer_text": "Hidden gem, something special" }
-    ],
-    "helper_text": "Rank the following from most important to least important"
-  }
-]
+    {
+      "question_id": "q10_dates",
+      "question_text": "When will you be in London?",
+      "type": "date_range",
+      "is_hard_filter": true,
+      "answers": [
+        { "answer_id": "all_dates", "answer_text": "All dates, I'm flexible" },
+        { "answer_id": "specific_dates", "answer_text": "Specific dates" }
+      ],
+      "helper_text": "So we only recommend shows running while you’re there"
+    },
+    {
+      "question_id": "q9_experience",
+      "question_text": "How many musicals have you seen before?",
+      "type": "single",
+      "is_hard_filter": false,
+      "answers": [
+        { "answer_id": "first_time", "answer_text": "This will be my first musical" },
+        { "answer_id": "a_few", "answer_text": "I’ve seen a few" },
+        { "answer_id": "many", "answer_text": "I’ve seen many" }
+      ]
+    },
+    {
+      "question_id": "q11_seen_before",
+      "question_text": "Which of these musicals have you already seen and loved?",
+      "type": "multi",
+      "is_hard_filter": true,
+      "max_selections": 8,
+      "answers": [],
+      "dynamic_options": { "source": "shows" },
+      "helper_text": "Select all that apply"
+    },
+    {
+      "question_id": "q_priority_rank",
+      "question_text": "What matters most to you in a musical?",
+      "type": "ranking",
+      "is_hard_filter": false,
+      "answers": [
+        { "answer_id": "easy_english", "answer_text": "Easy English" },
+        { "answer_id": "strong_story", "answer_text": "Strong story" },
+        { "answer_id": "funny", "answer_text": "Funny / laugh-out-loud" },
+        { "answer_id": "grand_spectacle", "answer_text": "Grand spectacle / Visually impressive" },
+        { "answer_id": "songs_i_know", "answer_text": "Songs I know (jukebox)" },
+        { "answer_id": "not_too_long", "answer_text": "Not too long" },
+        { "answer_id": "hidden_gem", "answer_text": "Hidden gem, something special" }
+      ],
+      "helper_text": "Rank the following from most important to least important"
+    }
+  ]
+}
