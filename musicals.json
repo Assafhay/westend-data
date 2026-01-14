@@ -30,7 +30,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fdisneys-the-lion-king%2Flyceum-theatre%2F",
     "tsufs_best": 1,
     "type": "musical",
-    "venue_id": "Lyceum Theatre"
+    "venue_id": "Lyceum Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -63,7 +64,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fles-miserables%2Fsondheim-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Sondheim Theatre"
+    "venue_id": "Sondheim Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -96,7 +98,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fback-to-the-future-the-musical%2Fadelphi-theatre%2F",
     "tsufs_best": 2,
     "type": "musical",
-    "venue_id": "Adelphi Theatre"
+    "venue_id": "Adelphi Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -129,7 +132,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fmoulin-rouge-the-musical%2Fpiccadilly-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Piccadilly Theatre"
+    "venue_id": "Piccadilly Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -162,7 +166,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fmj-the-musical%2Fprince-edward-theatre%2F",
     "tsufs_best": 1,
     "type": "musical",
-    "venue_id": "Prince Edward Theatre"
+    "venue_id": "Prince Edward Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -195,7 +200,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fhamilton%2Fvictoria-palace-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Victoria Palace Theatre"
+    "venue_id": "Victoria Palace Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -228,7 +234,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fwicked%2Fapollo-victoria-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Apollo Victoria Theatre"
+    "venue_id": "Apollo Victoria Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -261,7 +268,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fmamma-mia%2Fnovello-theatre%2F",
     "tsufs_best": 2,
     "type": "musical",
-    "venue_id": "Novello Theatre"
+    "venue_id": "Novello Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -294,7 +302,8 @@
     "ticket_url_aff": "",
     "tsufs_best": 1,
     "type": "musical",
-    "venue_id": "Dominion Theatre"
+    "venue_id": "Dominion Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -327,7 +336,8 @@
     "ticket_url_aff": "https://prf.hn/l/bxkZnjm/",
     "tsufs_best": 2,
     "type": "musical",
-    "venue_id": "Kit Kat Club at the Playhouse Theatre"
+    "venue_id": "Kit Kat Club at the Playhouse Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -360,7 +370,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fsix%2Fvaudeville-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Vaudeville Theatre"
+    "venue_id": "Vaudeville Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -393,7 +404,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fmatilda-the-musical%2Fcambridge-theatre%2F",
     "tsufs_best": 2,
     "type": "musical",
-    "venue_id": "Cambridge Theatre"
+    "venue_id": "Cambridge Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -426,7 +438,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fthe-book-of-mormon%2Fprince-of-wales-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Prince of Wales Theatre"
+    "venue_id": "Prince of Wales Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -459,7 +472,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fthe-phantom-of-the-opera%2Fhis-majestys-theatre%2F",
     "tsufs_best": 1,
     "type": "musical",
-    "venue_id": "His Majesty’s Theatre"
+    "venue_id": "His Majesty’s Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -492,7 +506,8 @@
     "ticket_url_aff": "",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Lyric Theatre"
+    "venue_id": "Lyric Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -525,7 +540,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Foliver%2Fgielgud-theatre%2F",
     "tsufs_best": 2,
     "type": "musical",
-    "venue_id": "Gielgud Theatre"
+    "venue_id": "Gielgud Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -558,7 +574,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Foperation-mincemeat-a-new-musical%2Ffortune-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Fortune Theatre"
+    "venue_id": "Fortune Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -591,7 +608,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Ftitanique%2Fcriterion-theatre%2F",
     "tsufs_best": 2,
     "type": "musical",
-    "venue_id": "Criterion Theatre"
+    "venue_id": "Criterion Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -624,7 +642,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fstarlight-express%2Ftroubadour-wembley-park-theatre%2F",
     "tsufs_best": 1,
     "type": "musical",
-    "venue_id": "Troubadour Wembley Park Theatre"
+    "venue_id": "Troubadour Wembley Park Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -657,7 +676,8 @@
     "ticket_url_aff": "",
     "tsufs_best": 2,
     "type": "musical",
-    "venue_id": "Theatre Royal Drury Lane"
+    "venue_id": "Theatre Royal Drury Lane",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -690,7 +710,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fpaddington-the-musical%2Fsavoy-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Savoy Theatre"
+    "venue_id": "Savoy Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -723,7 +744,8 @@
     "ticket_url_aff": "",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Garrick Theatre"
+    "venue_id": "Garrick Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -756,7 +778,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fjust-for-one-day-the-live-aid-musical%2Fshaftesbury-theatre%2F",
     "tsufs_best": 3,
     "type": "musical",
-    "venue_id": "Shaftsbury Theatre"
+    "venue_id": "Shaftsbury Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -789,7 +812,8 @@
     "ticket_url_aff": "",
     "tsufs_best": 0,
     "type": "musical",
-    "venue_id": "Bridge Theatre"
+    "venue_id": "Bridge Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -822,7 +846,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fkinky-boots%2Flondon-coliseum%2F",
     "tsufs_best": 0,
     "type": "musical",
-    "venue_id": "London Coliseum"
+    "venue_id": "London Coliseum",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -855,7 +880,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Favenue-q%2Fshaftesbury-theatre%2F",
     "tsufs_best": 0,
     "type": "musical",
-    "venue_id": "Shaftsbury Theatre"
+    "venue_id": "Shaftsbury Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -888,7 +914,8 @@
     "ticket_url_aff": "",
     "tsufs_best": 0,
     "type": "musical",
-    "venue_id": "Peacock Theatre"
+    "venue_id": "Peacock Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -921,7 +948,8 @@
     "ticket_url_aff": "",
     "tsufs_best": 0,
     "type": "musical",
-    "venue_id": "Arts Theatre"
+    "venue_id": "Arts Theatre",
+    "visible_on_app": 1
   },
   {
     "based_on_movie": "",
@@ -954,7 +982,8 @@
     "ticket_url_aff": "https://prf.hn/click/camref:1011l57HXB/pubref:appbytsufeden/destination:https%3A%2F%2Fwww.atgtickets.com%2Fshows%2Fbeetlejuice-the-musical%2Fprince-edward-theatre%2F",
     "tsufs_best": "",
     "type": "musical",
-    "venue_id": "Prince Edward Theatre"
+    "venue_id": "Prince Edward Theatre",
+    "visible_on_app": 0
   },
   {
     "based_on_movie": "",
@@ -987,7 +1016,8 @@
     "ticket_url_aff": "",
     "tsufs_best": "",
     "type": "musical",
-    "venue_id": "Southwark Playhouse"
+    "venue_id": "Southwark Playhouse",
+    "visible_on_app": 0
   },
   {
     "based_on_movie": "",
@@ -1020,7 +1050,8 @@
     "ticket_url_aff": "",
     "tsufs_best": "",
     "type": "musical",
-    "venue_id": "@sohoplace"
+    "venue_id": "@sohoplace",
+    "visible_on_app": 0
   },
   {
     "based_on_movie": "",
@@ -1053,7 +1084,8 @@
     "ticket_url_aff": "",
     "tsufs_best": "",
     "type": "musical",
-    "venue_id": "London Palladium"
+    "venue_id": "London Palladium",
+    "visible_on_app": 0
   },
   {
     "based_on_movie": "",
@@ -1086,7 +1118,8 @@
     "ticket_url_aff": "",
     "tsufs_best": "",
     "type": "musical",
-    "venue_id": "Regent's Park Open Air Theatre"
+    "venue_id": "Regent's Park Open Air Theatre",
+    "visible_on_app": 0
   },
   {
     "based_on_movie": "",
@@ -1119,7 +1152,8 @@
     "ticket_url_aff": "",
     "tsufs_best": "",
     "type": "musical",
-    "venue_id": "Hampstead Theatre"
+    "venue_id": "Hampstead Theatre",
+    "visible_on_app": 0
   },
   {
     "based_on_movie": "",
@@ -1152,6 +1186,7 @@
     "ticket_url_aff": "",
     "tsufs_best": "",
     "type": "musical",
-    "venue_id": "New Wimbeldon Theatre"
+    "venue_id": "New Wimbeldon Theatre",
+    "visible_on_app": 0
   }
 ]
