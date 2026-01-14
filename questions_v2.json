@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "questions": [
+    {
+      "id": "q1_group",
+      "type": "single_choice",
+      "title": "Who are you going with?",
+      "options": [
+        { "id": "family_kids", "label": "Family with kids" },
+        { "id": "adults_and_teens", "label": "Adults & teens" },
+        { "id": "adults", "label": "Adults only" }
+      ]
+    },
+
+    {
+      "id": "q10_dates",
+      "type": "date_range",
+      "title": "When will you be in London?",
+      "helper_text": "So we only recommend shows running while you’re there"
+    },
+
+    {
+      "id": "q9_experience",
+      "type": "single_choice",
+      "title": "How many musicals have you seen before?",
+      "options": [
+        { "id": "first_time", "label": "This will be my first musical" },
+        { "id": "a_few", "label": "I’ve seen a few" },
+        { "id": "many", "label": "I’ve seen many" }
+      ]
+    },
+
+    {
+      "id": "q11_seen_before",
+      "type": "multi_select",
+      "title": "Which of these musicals have you already seen and loved?",
+      "helper_text": "Select all that apply",
+      "dynamic_options": {
+        "source": "shows"
+      }
+    },
+
+    {
+      "id": "q_priority_rank",
+      "type": "ranking",
+      "title": "What matters most to you in a musical?",
+      "helper_text": "Rank the following from most important to least important",
+      "items": [
+        { "id": "easy_english", "label": "Easy English" },
+        { "id": "strong_story", "label": "Strong story" },
+        { "id": "funny", "label": "Funny / laugh-out-loud" },
+        { "id": "grand_spectacle", "label": "Grand spectacle / Visually impressive" },
+        { "id": "songs_i_know", "label": "Songs I know (jukebox)" },
+        { "id": "not_too_long", "label": "Not too long" },
+        { "id": "hidden_gem", "label": "Hidden gem, something special" }
+      ]
+    }
+  ]
+}
