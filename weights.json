@@ -305,69 +305,7 @@
     "value": "<=140",
     "reason_snippet": "Not too long"
   },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "classic",
-    "field": "classic",
-    "weight": 4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer classic musicals"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "classic",
-    "field": "hidden_gem",
-    "weight": -4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Not looking for hidden gems"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "must_see",
-    "field": "must_see",
-    "weight": 4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Looking for a big must-see show"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "must_see",
-    "field": "fan_favourite",
-    "weight": 2,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Fan-favourite musical"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "must_see",
-    "field": "classic",
-    "weight": 1,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "One of the shows you must see when in London"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "hidden_gem",
-    "field": "hidden_gem",
-    "weight": 4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Prefer something different"
-  },
-  {
-    "question_id": "q8_classic_vs_hidden",
-    "answer_id": "hidden_gem",
-    "field": "classic",
-    "weight": -4,
-    "mode": "score",
-    "value": null,
-    "reason_snippet": "Since you don't want the obvious tourist classics"
-  },
+  
   {
     "question_id": "q9_experience",
     "answer_id": "first_time",
