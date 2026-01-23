@@ -67,18 +67,6 @@
     ]
   },
   {
-    "question_id": "q8_classic_vs_hidden",
-    "question_text": "What kind of musical are you in the mood for?",
-    "type": "single",
-    "is_hard_filter": false,
-    "answers": [
-      { "answer_id": "classic", "answer_text": "A classic musical" },
-      { "answer_id": "must_see", "answer_text": "A must see, something everyone loves" },
-      { "answer_id": "hidden_gem", "answer_text": "A hidden gem, something different" },
-      { "answer_id": "dont_care", "answer_text": "No preference" }
-    ]
-  },
-  {
     "question_id": "q9_experience",
     "question_text": "How many musicals have you seen before?",
     "type": "single",
