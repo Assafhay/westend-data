@@ -31,8 +31,7 @@
     "tsufs_best": 1,
     "type": "musical",
     "venue_id": "Lyceum Theatre",
-    "visible_on_app": 1,
-    "description_he": "עיבוד בימתי מרהיב ויזואלית לסרט הדיסני המצויר, החוקר את מעגל החיים דרך מוזיקה, ריקוד ובובות."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -66,8 +65,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Sondheim Theatre",
-    "visible_on_app": 1,
-    "description_he": "סיפור עוצמתי של אהבה, צדק וגאולה על רקע המהפכה הצרפתית."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -101,8 +99,7 @@
     "tsufs_best": 2,
     "type": "musical",
     "venue_id": "Adelphi Theatre",
-    "visible_on_app": 1,
-    "description_he": "הרפתקת מחזמר עם נסיעה בזמן, מבוססת על הסרט האייקוני, עמוסה בוייבים של שנות ה-80 ופלאי מדע בדיוני."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -136,8 +133,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Piccadilly Theatre",
-    "visible_on_app": 1,
-    "description_he": "ראווה מסנוורת של אהבה וחופש בפריז הבוהמיינית, עמוסה בעיבודי פופ."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -171,8 +167,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Victoria Palace Theatre",
-    "visible_on_app": 1,
-    "description_he": "סיפור מחודש ומהפכני על חייו של אלכסנדר המילטון, עם היפ-הופ, R&B וסיפור דינמי."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -206,8 +201,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Apollo Victoria Theatre",
-    "visible_on_app": 1,
-    "description_he": "הסיפור הלא-מסופר של המכשפות מעוץ, המאתגר רעיונות של טוב ורע דרך קסם וחברות."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -241,8 +235,7 @@
     "tsufs_best": 2,
     "type": "musical",
     "venue_id": "Novello Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר שמח ומרגש לצלילי להיטי ABBA, סביב אהבה, משפחה וחתונות על האי."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -276,8 +269,7 @@
     "tsufs_best": 1,
     "type": "musical",
     "venue_id": "Dominion Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר עתיר אופנה המבוסס על הסרט המוצלח, עוקב אחר עיתונאית צעירה בעולם הקוטור."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -311,8 +303,7 @@
     "tsufs_best": 2,
     "type": "musical",
     "venue_id": "Kit Kat Club at the Playhouse Theatre",
-    "visible_on_app": 1,
-    "description_he": "מסע מרתק ומעורר תשוקה אל מועדון לילה בברלין של שנות ה-30, בצל עליית הנאצים."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -346,8 +337,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Vaudeville Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר פופ אגרסיבי ומהנה שבו שש נשותיו של הנרי השמיני מחזירות לעצמן את קולן."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -381,8 +371,7 @@
     "tsufs_best": 2,
     "type": "musical",
     "venue_id": "Cambridge Theatre",
-    "visible_on_app": 1,
-    "description_he": "סיפור קסום וחכם על ילדה מוכשרת הנלחמת בעוול בכוח בינה וטלקינזיס."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -416,8 +405,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Prince of Wales Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר חצוף ולא-מתנשא על שני מיסיונרים צעירים שמפיצים את אמונתם באוגנדה."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -451,8 +439,7 @@
     "tsufs_best": 1,
     "type": "musical",
     "venue_id": "His Majesty’s Theatre",
-    "visible_on_app": 1,
-    "description_he": "סיפור אהבה גותי בין גאון מוזיקלי מסתורי לסופרן צעירה באופרה של פריז."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -486,8 +473,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Lyric Theatre",
-    "visible_on_app": 1,
-    "description_he": "עיבוד נשמתי של מיתוס אורפאוס ואוריידיקה, בשילוב פולק, ג'אז וסיפור פואטי."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -521,8 +507,7 @@
     "tsufs_best": 2,
     "type": "musical",
     "venue_id": "Gielgud Theatre",
-    "visible_on_app": 1,
-    "description_he": "עיבוד מחמם-לב וגולמי של הקלאסיקה של דיקנס, על יתום המחפש משפחה."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -556,8 +541,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Fortune Theatre",
-    "visible_on_app": 1,
-    "description_he": "קומדיה מחזמרית פרועה ויצירתית על מזימת ריגול אמיתית ממלחמת העולם השנייה שעזרה לרמות את הנאצים."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -591,8 +575,7 @@
     "tsufs_best": 2,
     "type": "musical",
     "venue_id": "Criterion Theatre",
-    "visible_on_app": 1,
-    "description_he": "פרודיה מצחיקה על טיטאניק עם שירי סלין דיון ומלא קאמפ."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -626,8 +609,7 @@
     "tsufs_best": 1,
     "type": "musical",
     "venue_id": "Troubadour Wembley Park Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר מרוץ במהירות גבוהה עם מבצעים על גלגיליות המשחקים רכבות בדמיון של ילד."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -661,8 +643,7 @@
     "tsufs_best": 2,
     "type": "musical",
     "venue_id": "Theatre Royal Drury Lane",
-    "visible_on_app": 1,
-    "description_he": "מחזמר מיתולוגי שעוקב אחר מסעו של בן-אלים צעיר המגלה גבורה ואהבה."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -696,8 +677,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Savoy Theatre",
-    "visible_on_app": 1,
-    "description_he": "הרפתקה חמה, מצחיקה וידידותית למשפחה עם הדוב האהוב ביותר של לונדון. מלא קסם, הומור בריטי, שירים קליטים ותקריות מרמלדה, זוהי הצגה מתוקה שילדים אוהבים ומבוגרים נהנים ממנה לא פחות."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -731,8 +711,7 @@
     "tsufs_best": 3,
     "type": "musical",
     "venue_id": "Garrick Theatre",
-    "visible_on_app": 1,
-    "description_he": "קומדיה מצחיקה על שני יצרני תיאטרון ערמומיים שמנסים להרוויח כסף על ידי יצירת ההצגה הגרועה ביותר, ואז הכל משתבש."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -766,8 +745,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "Bridge Theatre",
-    "visible_on_app": 1,
-    "description_he": "טוויסט על אגדות ילדים שבו סינדרלה, כיפה אדומה, ג'ק ואחרים מגלים שהגשמת החלום עלולה לבוא עם מחיר. חכם, רגשי וקסום."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -801,8 +779,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "London Coliseum",
-    "visible_on_app": 1,
-    "description_he": "סיפור מחמם-לב ומרהיב על מפעל נעליים מתקשה שניצל בשיתוף עם מלכת-גרר גלמורטית — מלא כיף, נצנצים ולב גדול."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -836,8 +813,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "Shaftsbury Theatre",
-    "visible_on_app": 1,
-    "description_he": "קומדיה עם בובות שממש לא מיועדת לילדים — על בגרות, אהבה, עבודה וניסיון להבין את החיים בדרך מצחיקה ופרועה."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -871,8 +847,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "Prince Edward Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר רוק מודרני המבוסס על הסרט הפולחני, קומדיה אפלה על ה'ביו-אקסורציסט' המבלגן."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -906,8 +881,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "@sohoplace",
-    "visible_on_app": 1,
-    "description_he": "עיבוד מוזיקלי לסיפור האמיתי המעורר השראה על יצירתיות ותקווה, בשילוב מוזיקה בהשראת אפריקה ודרמה."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -941,8 +915,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "London Palladium",
-    "visible_on_app": 1,
-    "description_he": "אופרת רוק על השבוע האחרון בחייו של ישו — קלאסיקה, מרגשת, עם אנסמבל גדול."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -976,8 +949,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "Regent's Park Open Air Theatre",
-    "visible_on_app": 1,
-    "description_he": "המחזמר הקלאסי של אנדרו לויד ווברנ על חתולים, עם כוריאוגרפיה אייקונית ושיר אייקוני (Memory)."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -1011,8 +983,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "Hampstead Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר מודרני וייחודי על נערה עם מצב הזדקנות נדיר — מרגש ומצחיק."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -1046,8 +1017,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "New Wimbeldon Theatre",
-    "visible_on_app": 1,
-    "description_he": "מחזמר פופ על אל וודס שמוכיחה את עצמה — כיפי, עם גרל-פאוור."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -1081,8 +1051,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "Theatre Royal Haymarket",
-    "visible_on_app": 1,
-    "description_he": "סיפור מעורר השראה על גבר רגיל שיוצא לדרך בלתי צפויה חוצת אנגליה לבקר חברה חולה. תוך כדי ההליכה הוא מגלה קשר, סליחה ותקווה."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 0,
@@ -1116,8 +1085,7 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "Barbican Theatre",
-    "visible_on_app": 1,
-    "description_he": "קומדיה מוזיקלית גלמורטית וחכמה שמתרחשת בחברה הגבוהה של פילדלפיה ערב חתונת יוקרה. עמוסה בדיאלוגים חדים, בלבולי אהבה ותווי הג'אז המנצנצים של קול פורטר."
+    "visible_on_app": 1
   },
   {
     "based_on_movie": 1,
@@ -1151,7 +1119,6 @@
     "tsufs_best": 0,
     "type": "musical",
     "venue_id": "The Other Palace",
-    "visible_on_app": 1,
-    "description_he": "מחזמר נועז, קאמפי ומצחיק שהופך את הנסיכה הקטנה על ראשה. מסופר מנקודת מבטה של אורסולה, הוא חושף שמה שנחשב לנבלת אולי פשוט לא הובנה."
+    "visible_on_app": 1
   }
 ]
